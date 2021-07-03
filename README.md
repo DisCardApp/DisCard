@@ -6,9 +6,11 @@
   </a>
 
   <h3 align="center">DiscardApp</h3>
-
+  <h4 align="center"><a href="https://" target="_blank">Devpost Link</a></h4>
+  <h4 align="center"><a href="https://" target="_blank">» Start using DiscardApp!</a></h4>
+  
   <p align="center">
-    A webapp designed to help you use the best cards when you shop
+    Worried about your wallet bulge? Remembering which credit card to use for which situation is difficult, but it does not have to be. Discard missed opportunity costs so you can spend with confidence!
     <br />
     <a href="https://github.com/Ti1mmy/DiscardApp"><strong>Explore the docs »</strong></a>
     <br />
@@ -56,8 +58,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Discard your inefficient credit card spending
-DiscardApp is a webapp built to help users manage their credit cards and maximize cashback rewards at all stores. Using a database of all Canadian credit cards and cashback deals from third party sites, DiscardApp will tell you which card to best use
+Discard your inefficient credit card spending!
+#
+Discard is a webapp built to help users manage their credit cards and maximize cashback rewards. Using a database of all Canadian credit cards and cashback deals from Rakuten, Discard can tell you the best credit card to use based on your shopping needs with a sleek and responsive UI. 
+#
+Simply login to Discard with Google and add your cards to the app. You can then use the search function to find a store or directly use your location with Google Maps to find nearby stores. Discard will then use its large database of credit cards and deals to select the best card to use from your set of cards. Just like that, you'll be set to maximize your cashback rewards!
 
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
 `github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
@@ -65,9 +70,9 @@ DiscardApp is a webapp built to help users manage their credit cards and maximiz
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [https://docs.google.com/spreadsheets/d/e/2PACX-1vTbR-ImNWVYkXHN3kJJ6-jOBNGfvW0oQc26FSiGKU7F1TVXNgIL_62Y-qUf5nprVGGt1ZPRjYxpY-8G/pubhtml?gid=0&single=true](Self-Compiled Canadian Credit Card Database)
+* [https://firebase.google.com/](Firebase)
+* [https://developers.google.com/maps](Google Maps)
 
 
 
@@ -100,7 +105,9 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Main Page
+When you load the page, you will be greeted by a few different options:
+* Search Bar: Here you can enter the name of a store
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
