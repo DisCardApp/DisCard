@@ -1,4 +1,4 @@
-
+/*
 window.addEventListener('load', function(event) {
   var targetClassName = 'flex-wrap-anim';
   var defaultDuration = '0.3s';
@@ -52,3 +52,4 @@ window.addEventListener('load', function(event) {
     });
   });
 });
+*/

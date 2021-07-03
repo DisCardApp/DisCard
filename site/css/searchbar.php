@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 
@@ -14,33 +13,39 @@
   </style>
 </head>
 <body>
+    
+    <?php
+        // Read JSON file
+    $readjson = file_get_contents('credit_card_info.json') ;
+
+        //Decode JSON
+    $data = json_decode($readjson, true);
+
+        //Print data
+    print_r($data);
+    ?>
+
   <div class="container-fluid">
     <h1>discard</h1>
     
     <div class="search-label">
       <p class = "heading">Explore cashback rewards for thousands of stores</p>
     </div>
-    <form class="input-group" onSubmit="return false;">
-      <input class="search-bar" type="text" name = "userInput" id = "userInput" placeholder="Search for cashback opportunities" required>
-      <button class="btn btn-primary" type="submit" onClick="handle(userInput)">hi</button>
+    <form class="input-group" onSubmit="handle(e)">
+      <input class="search-bar" type="text" placeholder="Search for cashback opportunities" required>
+      <button class="btn btn-default" type="button">hi</button>
     </form>
-    <p id="result"></p>
 
     <script>
-      function handle(userInput) {
-        alert(document.getElementById('userInput').value);      
-        var result = document.getElementById('userInput').value;
-      }
-
-      function getInput() {
-        var nameField = document.getElementById('nameField').value;
-        var result = document.getElementById('result');
-
-        result.textContent = 'Your username is: ' + nameField;
-        //alert(nameField);
-
+      function handle(e) {
+        e.preventDefault();
+        document.getElementById("pp").innerHTML = e.target.value;
       }
     </script>
+
+    <p>Input: </p>
+    <p id="pp"></p>
   </div>
 </body>
 </html>
+<?php
