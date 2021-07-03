@@ -419,7 +419,7 @@
             "gas": 1.74,
             "travel": 0.0,
             "entertainment": 1.16,
-            "bill_payments": 0.0,
+            "bill_payments": 1.16,
             "store_specific": false
         }
     },
@@ -437,7 +437,7 @@
             "gas": 1.74,
             "travel": 1.74,
             "entertainment": 1.16,
-            "bill_payments": 0.0,
+            "bill_payments": 1.16,
             "store_specific": false
         }
     },
@@ -455,7 +455,7 @@
             "gas": 2.32,
             "travel": 3.48,
             "entertainment": 2.32,
-            "bill_payments": 0.0,
+            "bill_payments": 1.45,
             "store_specific": false
         }
     },
@@ -473,7 +473,7 @@
             "gas": 2.33,
             "travel": 3.1,
             "entertainment": 1.94,
-            "bill_payments": 0.0,
+            "bill_payments": 1.94,
             "store_specific": false
         }
     },
@@ -491,7 +491,7 @@
             "gas": 1.74,
             "travel": 2.32,
             "entertainment": 1.16,
-            "bill_payments": 0.0,
+            "bill_payments": 1.16,
             "store_specific": false
         }
     },
@@ -509,7 +509,7 @@
             "gas": 1.55,
             "travel": 1.55,
             "entertainment": 1.55,
-            "bill_payments": 0.0,
+            "bill_payments": 1.16,
             "store_specific": false
         }
     },
@@ -527,7 +527,7 @@
             "gas": 1.55,
             "travel": 1.55,
             "entertainment": 1.55,
-            "bill_payments": 0.0,
+            "bill_payments": 1.55,
             "store_specific": false
         }
     },
@@ -545,7 +545,7 @@
             "gas": 1.16,
             "travel": 1.16,
             "entertainment": 0.58,
-            "bill_payments": 0.0,
+            "bill_payments": 0.58,
             "store_specific": false
         }
     },
@@ -563,7 +563,7 @@
             "gas": 1.55,
             "travel": 1.55,
             "entertainment": 1.03,
-            "bill_payments": 0.0,
+            "bill_payments": 1.03,
             "store_specific": false
         }
     },
@@ -653,7 +653,7 @@
             "gas": 0.58,
             "travel": 0.58,
             "entertainment": 0.58,
-            "bill_payments": 0.0,
+            "bill_payments": 0.58,
             "store_specific": false
         }
     },
@@ -689,7 +689,7 @@
             "gas": 1.74,
             "travel": 1.74,
             "entertainment": 1.16,
-            "bill_payments": 0.0,
+            "bill_payments": 1.16,
             "store_specific": false
         }
     },
@@ -734,7 +734,7 @@
             "gas": 1.74,
             "travel": 1.74,
             "entertainment": 1.16,
-            "bill_payments": 0.0,
+            "bill_payments": 1.16,
             "store_specific": false
         }
     },
@@ -842,7 +842,7 @@
             "gas": 2.33,
             "travel": 2.33,
             "entertainment": 1.55,
-            "bill_payments": 0.0,
+            "bill_payments": 1.55,
             "store_specific": false
         }
     },
@@ -860,7 +860,7 @@
             "gas": 1.55,
             "travel": 1.55,
             "entertainment": 1.03,
-            "bill_payments": 0.0,
+            "bill_payments": 1.03,
             "store_specific": false
         }
     },
@@ -896,7 +896,7 @@
             "gas": 1.5,
             "travel": 1.5,
             "entertainment": 1.5,
-            "bill_payments": 0.0,
+            "bill_payments": 1.5,
             "store_specific": false
         }
     },
@@ -2303,8 +2303,8 @@
         "point_type": false,
         "points": {
             "general": 1.0,
-            "restaurant": 5.0,
-            "grocery": 5.0,
+            "restaurant": 1.0,
+            "grocery": 4.0,
             "drug_store": 1.0,
             "gas": 2.0,
             "travel": 1.0,
@@ -2327,7 +2327,7 @@
             "gas": 1.0,
             "travel": 1.0,
             "entertainment": 2.0,
-            "bill_payments": 0.0,
+            "bill_payments": 1.0,
             "store_specific": false
         }
     },
