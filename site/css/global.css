@@ -2,3 +2,33 @@
     color: inherit;
     text-decoration: inherit;
 }
+
+.collapse.width {
+    overflow: hidden;
+    visibility: hidden;
+  }
+  .collapse.show.width {
+    visibility: visible;
+    display: block;
+  }
+  .collapsing.width {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition-property: height, visibility;
+    transition-property: height, visibility;
+    -webkit-transition-duration: 0.35s;
+    transition-duration: 0.35s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+  }
+  .collapsing.width {
+    animation-fill-mode: backwards;
+    -webkit-transition-property: transform, width, visibility;
+    transition-property: transform, width, visibility;
+    width: 0;
+    height: auto;
+  }
+  .collapsing.right {
+    margin-left: auto;
+  }

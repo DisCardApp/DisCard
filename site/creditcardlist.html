@@ -35,13 +35,14 @@
     var provider = new firebase.auth.GoogleAuthProvider();
   </script>
   
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/aspectratiopad.css">
-  <link rel="stylesheet" href="css/signinbtn.css">
-  <link rel="stylesheet" href="css/creditcardmodal.css">
-  <link rel="stylesheet" href="css/creditcardtile.css">
-  <script type="text/javascript" src="js/loginflow.js" defer></script>
-  <script type="text/javascript" src="js/flexboxanimation.js"></script>
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/aspectratiopad.css">
+  <link rel="stylesheet" href="/css/signinbtn.css">
+  <link rel="stylesheet" href="/css/creditcardmodal.css">
+  <link rel="stylesheet" href="/css/creditcardtile.css">
+  <script type="text/javascript" src="/js/loginflow.js" defer></script>
+  <script type="text/javascript" src="/js/creditcardlist.js" defer></script>
+  <script type="text/javascript" src="/js/flexboxanimation.js"></script>
 </head>
 <body>
   <!-- Optional JavaScript; choose one of the two! -->
@@ -85,13 +86,16 @@
         </div>
         <div class="modal-body">
           <div id="creditCardPreviewArea" class="position-relative d-flex justify-content-center border border-3 mb-3">
-            <div id="creditCardPreviewImgPicker" class="position-absolute top-50 start-50 translate-middle">
-              <svg class="bi" width="64" height="64" fill="currentColor">
-                <use xlink:href="image/bootstrap-icons.svg#card-image"/>
-              </svg>
-            </div>
-            <img id="creditCardPreviewImg" class="" src="https://via.placeholder.com/860x540">
+            <label id="creditCardPreviewImgPickerLabel" for="creditCarcImgPickerForm" class="form-label">
+              <div id="creditCardPreviewImgPicker" class="position-absolute top-50 start-50 translate-middle">
+                <svg class="bi" width="64" height="64" fill="currentColor">
+                  <use xlink:href="image/bootstrap-icons.svg#file-earmark-plus"/>
+                </svg>
+              </div>
+              <img id="creditCardPreviewImg" class="invisible" src="https://via.placeholder.com/860x540">
+            </label>
           </div>
+          <input class="d-none" id="creditCarcImgPickerForm" type="file">
           
           <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1">Name</span>
@@ -102,53 +106,53 @@
             <div class="p-1">
               <h6>General</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
               </div>
             </div>
             <div class="p-1">
-              <h6>General</h6>
+              <h6>Restaurant</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
               </div>
             </div>
             <div class="p-1">
-              <h6>General</h6>
+              <h6>Grocery</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
-              </div>
-            </div>
-          </div>
-          <div class="d-flex flex-row flex-fill">
-            <div class="p-1">
-              <h6>General</h6>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
-              </div>
-            </div>
-            <div class="p-1">
-              <h6>General</h6>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
-              </div>
-            </div>
-            <div class="p-1">
-              <h6>General</h6>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
               </div>
             </div>
           </div>
           <div class="d-flex flex-row flex-fill">
             <div class="p-1">
-              <h6>General</h6>
+              <h6>Drug Store</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
               </div>
             </div>
             <div class="p-1">
-              <h6>General</h6>
+              <h6>Gas</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div class="p-1">
+              <h6>Travel</h6>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-row flex-fill">
+            <div class="p-1">
+              <h6>Entertainment</h6>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div class="p-1">
+              <h6>Bill Payments</h6>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
               </div>
             </div>
           </div>
@@ -162,7 +166,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Discard</button>
-          <button type="button" class="btn btn-primary">Save</button>
+          <button type="button" class="btn btn-primary" onClick="saveCard()">Save</button>
         </div>
       </div>
     </div>
@@ -189,57 +193,58 @@
             <div class="p-1">
               <h6>General</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
               </div>
             </div>
             <div class="p-1">
-              <h6>General</h6>
+              <h6>Restaurant</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
               </div>
             </div>
             <div class="p-1">
-              <h6>General</h6>
+              <h6>Grocery</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
-              </div>
-            </div>
-          </div>
-          <div class="d-flex flex-row flex-fill">
-            <div class="p-1">
-              <h6>General</h6>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
-              </div>
-            </div>
-            <div class="p-1">
-              <h6>General</h6>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
-              </div>
-            </div>
-            <div class="p-1">
-              <h6>General</h6>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
               </div>
             </div>
           </div>
           <div class="d-flex flex-row flex-fill">
             <div class="p-1">
-              <h6>General</h6>
+              <h6>Drug Store</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
               </div>
             </div>
             <div class="p-1">
-              <h6>General</h6>
+              <h6>Gas</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div class="p-1">
+              <h6>Travel</h6>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-row flex-fill">
+            <div class="p-1">
+              <h6>Entertainment</h6>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div class="p-1">
+              <h6>Bill Payments</h6>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
               </div>
             </div>
           </div>
           <!-- <h4>Add Store</h4>
+          # Add store-specific cashback if it exists
           <div class="input-group mb-3 p-1">
             <button class="btn btn-outline-secondary" type="button" id="button-addon1">+</button>
             <input type="text" class="form-control" placeholder="Store" aria-label="Store">
@@ -271,9 +276,9 @@
           <div class="card card-body text-start">
             <h1 class="display-6">Name</h1>
             <ul>
-              <li>General Cashback</li>
-              <li>Gas</li>
-              <li>Groceries</li>
+              <li>General Cashback: </li>
+              <li>Gas: </li>
+              <li>Groceries: </li>
             </ul>
             <div class="container">
               <button type="button" class="btn btn-outline-secondary float-start"><i class="bi bi-three-dots"></i></button>
@@ -295,9 +300,9 @@
           <div class="card card-body text-start">
             <h1 class="display-6">Name</h1>
             <ul>
-              <li>General Cashback</li>
-              <li>Gas</li>
-              <li>Groceries</li>
+              <li>General Cashback: </li>
+              <li>Gas: </li>
+              <li>Groceries: </li>
             </ul>
             <div class="container">
               <button type="button" class="btn btn-outline-secondary float-start"><i class="bi bi-three-dots"></i></button>
@@ -319,9 +324,9 @@
           <div class="card card-body text-start">
             <h1 class="display-6">Name</h1>
             <ul>
-              <li>General Cashback</li>
-              <li>Gas</li>
-              <li>Groceries</li>
+              <li>General Cashback: </li>
+              <li>Gas: </li>
+              <li>Groceries: </li>
             </ul>
             <div class="container">
               <button type="button" class="btn btn-outline-secondary float-start"><i class="bi bi-three-dots"></i></button>
@@ -342,9 +347,9 @@
           <div class="card card-body text-start">
             <h1 class="display-6">Name</h1>
             <ul>
-              <li>General Cashback</li>
-              <li>Gas</li>
-              <li>Groceries</li>
+              <li>General Cashback: </li>
+              <li>Gas: </li>
+              <li>Groceries: </li>
             </ul>
             <div class="container">
               <button type="button" class="btn btn-outline-secondary float-start"><i class="bi bi-three-dots"></i></button>

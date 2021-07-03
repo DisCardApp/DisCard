@@ -4,6 +4,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Discard</title>
+    <link rel="shortcut icon" type="image/png" href="/image/icon/logo_l.png"/>
+
+    <link rel="manifest" href="/resource/appmanifest.webmanifest">
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -82,20 +87,33 @@
         <button type="button" class="btn btn-outline-primary btn-lg"><i class="bi bi-geo-alt-fill"></i> Use My Location</button>
     </div>
     <!-- Reccomendation Container -->
-    <div class="container">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+    <div class="container mt-3">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 position-relative">
             <!-- Best Card -->
-            <div class="col order-1 order-md-2">
-                <div id="bestCardIcon" class="d-flex justify-content-center">
+            <div class="col order-1 order-md-2 mb-3">
+                <div id="bestCardIcon" class="d-flex justify-content-center" data-bs-toggle="collapse" href="#bestCardCollapse" role="button" aria-expanded="false" aria-controls="bestCardCollapse">
                     <img id="creditCardPreviewImg" class="wallet-card" src="https://via.placeholder.com/860x540">
                 </div>
             </div>
-            <div class="col order-2 order-md-1 mx-auto">
-                <div class="collapse" id="bestCardCollapse">
+            <div class="col order-2 order-md-1 mx-auto right justify-content-center">
+                <div class="collapse width right" id="bestCardCollapse">
                     <div class="card card-body">
+                        <h1 class="display-6 mw-100">BEST CARD NAME</h1>
+                        <ul><li>CategoryName • XX% Cashback</li></ul>
                     </div>
                     <!-- Alt Card Suggestion -->
                     <div class="card card-body">
+                        <h1 class="lead">2nd Choice</h1>
+                        <div class="container">
+                            <div class="row row-cols-2">
+                                <div class="col-8">
+                                    <ul><li>CategoryName • XX% Cashback</li></ul>
+                                </div>
+                                <div class="col-4">
+                                    <img id="creditCardPreviewImg2" class="wallet-card display-block" src="https://via.placeholder.com/860x540">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

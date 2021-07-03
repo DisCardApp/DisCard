@@ -19,3 +19,12 @@
 .wallet-card-desc {
     width: 21.5em;
 }
+
+#bestCardCollapse > * {
+    /* width: 18em; */
+}
+
+#creditCardPreviewImg2 {
+    max-width: 100%;
+    height: auto;
+}
