@@ -65,12 +65,20 @@ for cashback in soup.find_all(attrs={"class":"now_rebate prox-b f-15 lh-22 cb"})
 
 data = {}
 data['stores'] = {}
+alphanumeric = 'abcdefghijklmnopqrstuvwxyz0123456789'
 for k in range(len(info)):
-    data['stores'][info[k][0]] = {}
-    data['stores'][info[k][0]]['name'] = info[k][0]
-    data['stores'][info[k][0]]['image'] = info[k][1]
-    data['stores'][info[k][0]]['link'] = info[k][2]
-    data['stores'][info[k][0]]['cashback'] = info[k][3]
+    name_key = []
+    for char in info[k][0].lower():
+        if char in alphanumeric:
+            name_key.append(char)
+        elif char == " " or char == "-":
+            name_key.append("_")
+    key = "".join(name_key)
+    data['stores'][key] = {}
+    data['stores'][key]['name'] = info[k][0]
+    data['stores'][key]['image'] = info[k][1]
+    data['stores'][key]['link'] = info[k][2]
+    data['stores'][key]['cashback'] = info[k][3]
 
 with open('rakuten.json', 'w') as out:
     out.write(json.dumps(data, indent=4))

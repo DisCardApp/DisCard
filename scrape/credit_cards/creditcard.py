@@ -47,7 +47,7 @@ def make_json(csvFilePath, jsonFilePath):
             for char in card_name.lower():
                 if char in alphanumeric:
                     card_temp.append(char)
-                elif char == " ":
+                elif char == " " or char == "-":
                     card_temp.append('_')
             card_var = "".join(card_temp)
             
@@ -63,7 +63,7 @@ def make_json(csvFilePath, jsonFilePath):
                     'grocery': float(rows['Groceries'][:-1]) if rows['Groceries'][:-1].strip() != '' else 0.00,
                     'drug_store': float(rows['Drug Store'][:-1]) if rows['Drug Store'][:-1].strip() != '' else 0.00,
                     'gas': float(rows['Gas'][:-1]) if rows['Gas'][:-1].strip() != '' else 0.00,
-                    'trave': float(rows['Travel'][:-1]) if rows['Travel'][:-1].strip() != '' else 0.00,
+                    'travel': float(rows['Travel'][:-1]) if rows['Travel'][:-1].strip() != '' else 0.00,
                     'entertainment': float(rows['Entertainment'][:-1]) if rows['Entertainment'][:-1].strip() != '' else 0.00,
                     'bill_payments': float(rows['Bill Payments'][:-1]) if rows['Bill Payments'][:-1].strip() != '' else 0.00,
                     'store_specific': {} if rows['Store'].strip() != '' else False                    

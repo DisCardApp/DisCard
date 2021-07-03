@@ -21,16 +21,12 @@
     </div>
     <form class="input-group" onSubmit="return false;">
       <input class="search-bar" type="text" name="userInput" id="userInput" placeholder="Search for cashback opportunities" onkeyup="search()" required>
-      <button class="btn btn-dark" type="submit" onClick="handle(userInput)"><i class="bi bi-search"></i></button>
+      <button class="btn btn-primary" type="submit" onClick="handle(userInput)"><i class="bi bi-search"></i></button>
     </form>
     <p id="result"></p>
 
     <ul id = "myUL">
-      <li><a href = "#" id = "0">placeholder: Walmart</a></li>
-      <li><a href = "#" id = "1">placeholder: Canadian Tire</a></li>
-      <li><a href = "#" id = "2">placeholder: Loblaws</a></li>
-      <li><a href = "#" id = "3">placeholder: Hello World</a></li>
-      <li><a href = "#" id = "4">placeholder: McDonald's</a></li>
+      
     </ul>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script>
@@ -46,26 +42,74 @@
         input = document.getElementById('userInput');
         filter = input.value.toUpperCase();
         //change this to using the json
-        ul = document.getElementById('myUL');
-        li = ul.getElementsByTagName('li');
+        
+        
         
 
 
         //for(i = 0; i < li.length; i++){
-          //a = li[i].getElementsByTagName("a")[0]; !!! Object.keys(storeList).length
-        for(i = 0; i < 5; i++){
+          //a = li[i].getElementsByTagName("a")[0]; 
+          //!!! Object.keys(storeList).length FOR ARRAY LENGTH
+        
+          let temp;
+          let boxNumber = 0;
+          $.getJSON("../resource/rakuten.json", function(json){
+            const storeList = json["stores"];
+            for(i = 0; i < Object.keys(storeList).length; i++){
+              txtValue = storeList[Object.keys(storeList)[i]];
+              temp = txtValue['name']; 
+
+              //IF temp matches the 'i'th value in storeList, create a li tag and place it inside
+
+              if (temp.toUpperCase().indexOf(filter) > -1){
+                let deleteLi = document.querySelectorAll('li');
+
+                //ul = document.getElementById('myUL');
+                for (list in deleteLi){//okay that's wrong
+                  document.getElementById('myUL').removeChild(list)
+                }
+                
+                const li = document.createElement('li');
+
+                li.innerHTML = `<a href = "#" id = "listItem">` + temp + `</a>`;
+
+                document.getElementById('myUL').appendChild(li)
+
+                //document.getElementById(boxNumber.toString()).innerHTML = temp;
+                //boxNumber++;
+              } 
+            }
+            
+          });
+          /* FOR REFERENCE FROM BEFORE - WITHOUT ADDING FUNCTION
           $.getJSON("../scrape/rakuten/rakuten.json", function(json){
             const storeList = json["stores"];
-            console.log(storeList);
-            
-            
-            txtValue = storeList[Object.keys(storeList)[i]];
-            console.log(txtValue);
-          });
+            for(i = 0; i < 5; i++){
+              txtValue = storeList[Object.keys(storeList)[i]];
+              temp = txtValue['name']; 
+              console.log(temp);
+
+              if (temp.toUpperCase().indexOf(filter) > -1){
+                document.getElementById(boxNumber.toString()).innerHTML = temp;
+                boxNumber++;
+              } 
+            }
+            while(boxNumber < 5){//5 should be replaced with the number of loops/boxes
+              let toHide = document.querySelector("#" + boxNumber.toString());
+              toHide.style.visibility = "hidden";
+              
+              document.getElementById(boxNumber.toString()).innerHTML = "blank";
+              boxNumber++;
+              
+            }
+          });*/
+
+
+          //how to make extra html tags based on javascript?
 
 
           //txtValue = a.textContent || a.innerText;
-          console.log(i+" "+txtValue);
+          
           /*if (txtValue.toUpperCase().indexOf(filter) > -1){
             document.getElementById(i.toString()).innerHTML = storeList[Object.keys(storeList)[i]]
             //li[i].style.display = ""; //change displaying the store name + link
@@ -73,7 +117,7 @@
             li[i].style.display = 'none';
           }*/
         }
-      }
+      
     </script>
   </div>
 </body>
