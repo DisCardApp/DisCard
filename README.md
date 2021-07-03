@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Ti1mmy/DiscardApp">
-    <img src="img/logo.png" alt="Logo" width="240" height="135">
+    <img src="img/logo.png" alt="Logo" width="320" height="180">
   </a>
 
   <h3 align="center">DiscardApp</h3>
@@ -56,7 +56,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
+Discard your inefficient credit card spending
+DiscardApp is a webapp built to help users manage their credit cards and maximize cashback rewards at all stores. Using a database of all Canadian credit cards and cashback deals from third party sites, DiscardApp will tell you which card to best use
+
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
 `github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
 
