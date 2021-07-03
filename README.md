@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Ti1mmy/DiscardApp">
-    <img src="img/logo.png" alt="Logo" width="80" height="80">
+    <img src="img/logo.png" alt="Logo" width="240" height="135">
   </a>
 
   <h3 align="center">DiscardApp</h3>
