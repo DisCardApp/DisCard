@@ -1,1 +1,1 @@
-# AtlasHacksSubmission
+# DiscardApp
