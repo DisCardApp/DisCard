@@ -1,0 +1,9 @@
+#creditCardPreviewArea img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+#creditCardPreviewArea {
+    border-radius: 4%/6.5%;
+    overflow: hidden;
+}

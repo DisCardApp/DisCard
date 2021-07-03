@@ -1,0 +1,53 @@
+#google-login-button.logged-in {
+    width: 250px;
+    height: 40px;
+    overflow: hidden;
+}
+
+#google-login-button {
+    transition: all 0.5s;
+}
+
+#google-login-button:hover {
+    color: lightgray;
+}
+
+#google-login-button.logged-in:hover {
+    width: 300px;
+}
+
+#google-login-button.logged-out {
+    width: 50px;
+    height: 40px;
+    overflow: hidden;
+}
+
+#google-login-button.logged-out:hover {
+    width: 200px;
+}
+
+#google-login-button.logged-out:hover .logintext {
+    left: 0;
+    width: 100%;
+}
+
+#google-login-button .logintext {
+    position: relative;
+    left: 100%;
+    right: 0;
+    white-space: nowrap;
+    transition: .5s ease;
+}
+
+#google-login-button.logged-in:hover::after {
+    content: "Sign out of Discard";
+    transition: .1s ease;
+    /* position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    white-space: nowrap; */
+}
+
+#google-login-button.logged-in:hover span {
+    display: none;
+}
