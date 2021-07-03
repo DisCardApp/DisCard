@@ -11,7 +11,6 @@
   
   <link rel="stylesheet" href="css/cashbacksearch.css">
 
-  </style>
 </head>
 <body>
   <div class="container-fluid">
@@ -21,24 +20,59 @@
       <p class = "heading">Explore cashback rewards for thousands of stores</p>
     </div>
     <form class="input-group" onSubmit="return false;">
-      <input class="search-bar" type="text" name = "userInput" id = "userInput" placeholder="Search for cashback opportunities" required>
-      <button class="btn btn-primary" type="submit" onClick="handle(userInput)">hi</button>
+      <input class="search-bar" type="text" name="userInput" id="userInput" placeholder="Search for cashback opportunities" onkeyup="search()" required>
+      <button class="btn btn-dark" type="submit" onClick="handle(userInput)"><i class="bi bi-search"></i></button>
     </form>
     <p id="result"></p>
 
+    <ul id = "myUL">
+      <li><a href = "#" id = "0">placeholder: Walmart</a></li>
+      <li><a href = "#" id = "1">placeholder: Canadian Tire</a></li>
+      <li><a href = "#" id = "2">placeholder: Loblaws</a></li>
+      <li><a href = "#" id = "3">placeholder: Hello World</a></li>
+      <li><a href = "#" id = "4">placeholder: McDonald's</a></li>
+    </ul>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script>
+
       function handle(userInput) {
         alert(document.getElementById('userInput').value);      
         var result = document.getElementById('userInput').value;
       }
+      function search(){
+        
 
-      function getInput() {
-        var nameField = document.getElementById('nameField').value;
-        var result = document.getElementById('result');
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById('userInput');
+        filter = input.value.toUpperCase();
+        //change this to using the json
+        ul = document.getElementById('myUL');
+        li = ul.getElementsByTagName('li');
+        
 
-        result.textContent = 'Your username is: ' + nameField;
-        //alert(nameField);
 
+        //for(i = 0; i < li.length; i++){
+          //a = li[i].getElementsByTagName("a")[0]; !!! Object.keys(storeList).length
+        for(i = 0; i < 5; i++){
+          $.getJSON("../scrape/rakuten/rakuten.json", function(json){
+            const storeList = json["stores"];
+            console.log(storeList);
+            
+            
+            txtValue = storeList[Object.keys(storeList)[i]];
+            console.log(txtValue);
+          });
+
+
+          //txtValue = a.textContent || a.innerText;
+          console.log(i+" "+txtValue);
+          /*if (txtValue.toUpperCase().indexOf(filter) > -1){
+            document.getElementById(i.toString()).innerHTML = storeList[Object.keys(storeList)[i]]
+            //li[i].style.display = ""; //change displaying the store name + link
+          } else {
+            li[i].style.display = 'none';
+          }*/
+        }
       }
     </script>
   </div>

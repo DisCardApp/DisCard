@@ -1,0 +1,2632 @@
+{
+    "rbc_avion_visa_infinite": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/iav_infiniteavion_en_sm.png",
+        "name": "RBC Avion Visa Infinite",
+        "type": "Points",
+        "point_type": "RBC",
+        "points": {
+            "general": 1.14,
+            "restaurant": 1.14,
+            "grocery": 1.14,
+            "drug_store": 1.14,
+            "gas": 1.14,
+            "travel": 1.14,
+            "entertainment": 1.14,
+            "bill_payments": 1.14,
+            "store_specific": false
+        }
+    },
+    "rbc_rewards_visa": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/rvc_rewardsplus_en_sm.png",
+        "name": "RBC Rewards+ Visa",
+        "type": "Points",
+        "point_type": "RBC",
+        "points": {
+            "general": 0.57,
+            "restaurant": 0.57,
+            "grocery": 1.14,
+            "drug_store": 1.14,
+            "gas": 1.14,
+            "travel": 0.57,
+            "entertainment": 0.57,
+            "bill_payments": 0.57,
+            "store_specific": false
+        }
+    },
+    "rbc_cash_back_preferred_world_elite_mastercard": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/mcp_cashbackpreferred_en_sm.png",
+        "name": "RBC Cash Back Preferred World Elite Mastercard",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.5,
+            "restaurant": 1.5,
+            "grocery": 1.5,
+            "drug_store": 1.5,
+            "gas": 1.5,
+            "travel": 1.5,
+            "entertainment": 1.5,
+            "bill_payments": 1.5,
+            "store_specific": false
+        }
+    },
+    "rbc_cash_back_mastercard": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/mc1_cashbackmc_en_sm.png",
+        "name": "RBC Cash Back Mastercard",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 2.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "rbc_visa_classic_low_rate_option": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/clo_classiclowrate_en_sm.png",
+        "name": "RBC Visa Classic Low Rate Option",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "westjet_rbc_world_elite_mastercard": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/mc4_wjwe_worldelite_en_sm.png",
+        "name": "WestJet RBC World Elite Mastercard",
+        "type": "Points",
+        "point_type": "WestJet",
+        "points": {
+            "general": 1.5,
+            "restaurant": 1.5,
+            "grocery": 1.5,
+            "drug_store": 1.5,
+            "gas": 1.5,
+            "travel": 1.5,
+            "entertainment": 1.5,
+            "bill_payments": 1.5,
+            "store_specific": {
+                "westjet_flights": {
+                    "name": "WestJet Flights",
+                    "cashback": 2.0
+                },
+                "westjet_vacations": {
+                    "name": "Westjet Vacations",
+                    "cashback": 2.0
+                }
+            }
+        }
+    },
+    "rbc_avion_visa_infinite_privilege": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/avp_infinite_en_sm.png",
+        "name": "RBC Avion Visa Infinite Privilege",
+        "type": "Points",
+        "point_type": "RBC",
+        "points": {
+            "general": 1.43,
+            "restaurant": 1.43,
+            "grocery": 1.43,
+            "drug_store": 1.43,
+            "gas": 1.43,
+            "travel": 1.43,
+            "entertainment": 1.43,
+            "bill_payments": 1.43,
+            "store_specific": false
+        }
+    },
+    "signature_rbc_rewards_visa": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/cl2_signaturerewards_en_sm.png",
+        "name": "Signature RBC Rewards Visa",
+        "type": "Points",
+        "point_type": "RBC",
+        "points": {
+            "general": 1.14,
+            "restaurant": 1.14,
+            "grocery": 1.14,
+            "drug_store": 1.14,
+            "gas": 1.14,
+            "travel": 1.14,
+            "entertainment": 1.14,
+            "bill_payments": 1.14,
+            "store_specific": false
+        }
+    },
+    "rbc_avion_visa_platinum": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/gcp_platinumavion_en_sm.png",
+        "name": "RBC Avion Visa Platinum",
+        "type": "Points",
+        "point_type": "RBC",
+        "points": {
+            "general": 1.14,
+            "restaurant": 1.14,
+            "grocery": 1.14,
+            "drug_store": 1.14,
+            "gas": 1.14,
+            "travel": 1.14,
+            "entertainment": 1.14,
+            "bill_payments": 1.14,
+            "store_specific": false
+        }
+    },
+    "rbc_visa_platinum": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/plt_platinum_en_sm.png",
+        "name": "RBC Visa Platinum",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "rbc_rewards_visa_preferred": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/gpr-plp_rewardspreferred_en_sm.png",
+        "name": "RBC Rewards Visa Preferred",
+        "type": "Points",
+        "point_type": "RBC",
+        "points": {
+            "general": 1.43,
+            "restaurant": 1.43,
+            "grocery": 1.43,
+            "drug_store": 1.43,
+            "gas": 1.43,
+            "travel": 1.43,
+            "entertainment": 1.43,
+            "bill_payments": 1.43,
+            "store_specific": false
+        }
+    },
+    "rbc_rateadvantage_visa": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/vpr_rateadvantage_en_sm.png",
+        "name": "RBC RateAdvantage Visa",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "rbc_us_dollar_visa_gold": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/gus_usgold_en_sm.png",
+        "name": "RBC U.S. Dollar Visa Gold",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "westjet_rbc_mastercard": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/mc2_wj_westjet_en_sm.png",
+        "name": "WestJet RBC Mastercard",
+        "type": "Points",
+        "point_type": "WestJet",
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": {
+                "westjet_flights": {
+                    "name": "WestJet Flights",
+                    "cashback": 1.5
+                },
+                "westjet_vacations": {
+                    "name": "Westjet Vacations",
+                    "cashback": 1.5
+                }
+            }
+        }
+    },
+    "rbc_british_airways_visa_infinite": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/bap_ba_britishairways_en_sm.png",
+        "name": "RBC British Airways Visa Infinite",
+        "type": "Points",
+        "point_type": "Avios",
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "rbc_cathay_pacific_visa_platinum": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/pca_cathaypacific_en_sm.png",
+        "name": "RBC Cathay Pacific Visa Platinum",
+        "type": "Points",
+        "point_type": "Asia Miles",
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": {
+                "cathay_pacific_online": {
+                    "name": "Cathay Pacific Online",
+                    "cashback": 2.0
+                }
+            }
+        }
+    },
+    "rbc_avion_visa_infinite_business": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/aib_businessinfiniteavion_en_sm.png",
+        "name": "RBC Avion Visa Infinite Business",
+        "type": "Points",
+        "point_type": "RBC",
+        "points": {
+            "general": 1.43,
+            "restaurant": 1.43,
+            "grocery": 1.43,
+            "drug_store": 1.43,
+            "gas": 1.43,
+            "travel": 1.43,
+            "entertainment": 1.43,
+            "bill_payments": 1.43,
+            "store_specific": false
+        }
+    },
+    "rbc_avion_visa_business": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/cpx_businessplatinumavion_en_sm.png",
+        "name": "RBC Avion Visa Business",
+        "type": "Points",
+        "point_type": "RBC, Petro",
+        "points": {
+            "general": 1.14,
+            "restaurant": 1.14,
+            "grocery": 1.14,
+            "drug_store": 1.14,
+            "gas": 1.14,
+            "travel": 1.14,
+            "entertainment": 1.14,
+            "bill_payments": 1.14,
+            "store_specific": false
+        }
+    },
+    "rbc_business_cash_back_mastercard": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/mc6_business_cashback_mc_en_sm.png",
+        "name": "RBC Business Cash Back Mastercard",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "rbc_visa_business": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/cxp_clx_gxp_uxp_visabusiness_en_sm.png",
+        "name": "RBC Visa Business",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "rbc_visa_creditline_for_small_business": {
+        "bank": "RBC",
+        "image": "https://www.rbcroyalbank.com/credit-cards/app/assets/cards/ccl_clsb_en_sm.png",
+        "name": "RBC Visa CreditLine for Small Business",
+        "type": "Points",
+        "point_type": "RBC",
+        "points": {
+            "general": 0.57,
+            "restaurant": 0.57,
+            "grocery": 0.57,
+            "drug_store": 0.57,
+            "gas": 0.57,
+            "travel": 0.57,
+            "entertainment": 0.57,
+            "bill_payments": 0.57,
+            "store_specific": {
+                "petro_canada": {
+                    "name": "Petro-Canada",
+                    "cashback": 2.0
+                }
+            }
+        }
+    },
+    "cibc_aventura_visa_infinite_card": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/com/flat/cibc-visa-aventura-infinite-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Aventura\u00ae Visa Infinite Card",
+        "type": "Points",
+        "point_type": "Aventura",
+        "points": {
+            "general": 1.16,
+            "restaurant": 1.16,
+            "grocery": 1.74,
+            "drug_store": 1.74,
+            "gas": 1.74,
+            "travel": 0.0,
+            "entertainment": 1.16,
+            "bill_payments": 1.16,
+            "store_specific": false
+        }
+    },
+    "cibc_aeroplan_visa_infinite_card": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/online-banking/ps-ac/cibc-olb-ps-ac-aeroplan-infinite-front-fr.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Aeroplan\u00ae Visa Infinite Card",
+        "type": "Points",
+        "point_type": "Aventura",
+        "points": {
+            "general": 1.16,
+            "restaurant": 1.16,
+            "grocery": 1.74,
+            "drug_store": 1.16,
+            "gas": 1.74,
+            "travel": 1.74,
+            "entertainment": 1.16,
+            "bill_payments": 1.16,
+            "store_specific": false
+        }
+    },
+    "cibc_aventura_visa_infinite_privilege_card": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/personal_banking/credit_cards/product_pages/alpha-vip/Visa-Infinite-Privilege.svg/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Aventura\u00ae Visa Infinite Privilege Card",
+        "type": "Points",
+        "point_type": "Aventura",
+        "points": {
+            "general": 1.45,
+            "restaurant": 2.32,
+            "grocery": 2.32,
+            "drug_store": 1.45,
+            "gas": 2.32,
+            "travel": 3.48,
+            "entertainment": 2.32,
+            "bill_payments": 1.45,
+            "store_specific": false
+        }
+    },
+    "cibc_aeroplan_visa_infinite_privilege_card": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/online-banking/ps-ac/cibc-olb-ps-ac-aeroplan-infinite-privilege-front-fr.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Aeroplan\u00ae Visa Infinite Privilege Card",
+        "type": "Points",
+        "point_type": "Aeroplan",
+        "points": {
+            "general": 1.94,
+            "restaurant": 2.33,
+            "grocery": 2.33,
+            "drug_store": 1.94,
+            "gas": 2.33,
+            "travel": 3.1,
+            "entertainment": 1.94,
+            "bill_payments": 1.94,
+            "store_specific": false
+        }
+    },
+    "cibc_aventura_gold_visa_card": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/com/flat/cibc-visa-aventura-gold-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Aventura\u00ae Gold Visa Card",
+        "type": "Points",
+        "point_type": "Aventura",
+        "points": {
+            "general": 1.16,
+            "restaurant": 1.16,
+            "grocery": 1.74,
+            "drug_store": 1.74,
+            "gas": 1.74,
+            "travel": 2.32,
+            "entertainment": 1.16,
+            "bill_payments": 1.16,
+            "store_specific": false
+        }
+    },
+    "cibc_aventura_visa_card": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/com/flat/cibc-visa-aventura-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Aventura\u00ae Visa Card",
+        "type": "Points",
+        "point_type": "Aventura",
+        "points": {
+            "general": 1.16,
+            "restaurant": 1.16,
+            "grocery": 1.16,
+            "drug_store": 1.16,
+            "gas": 1.55,
+            "travel": 1.55,
+            "entertainment": 1.55,
+            "bill_payments": 1.16,
+            "store_specific": false
+        }
+    },
+    "cibc_aeroplan_visa_card": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/online-banking/ps-ac/cibc-olb-ps-ac-aeroplan-platinum-front-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Aeroplan\u00ae Visa Card",
+        "type": "Points",
+        "point_type": "Aeroplan",
+        "points": {
+            "general": 1.55,
+            "restaurant": 1.55,
+            "grocery": 1.55,
+            "drug_store": 1.55,
+            "gas": 1.55,
+            "travel": 1.55,
+            "entertainment": 1.55,
+            "bill_payments": 1.55,
+            "store_specific": false
+        }
+    },
+    "cibc_aventura_visa_card_for_students": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/com/flat/cibc-visa-aventura-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Aventura\u00ae Visa Card for Students",
+        "type": "Points",
+        "point_type": "Aventura",
+        "points": {
+            "general": 0.58,
+            "restaurant": 0.58,
+            "grocery": 1.16,
+            "drug_store": 1.16,
+            "gas": 1.16,
+            "travel": 1.16,
+            "entertainment": 0.58,
+            "bill_payments": 0.58,
+            "store_specific": false
+        }
+    },
+    "cibc_aeroplan_visa_card_for_students": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/online-banking/ps-ac/cibc-olb-ps-ac-aeroplan-platinum-front-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Aeroplan\u00ae Visa Card for Students",
+        "type": "Points",
+        "point_type": "Aeroplan",
+        "points": {
+            "general": 1.03,
+            "restaurant": 1.03,
+            "grocery": 1.55,
+            "drug_store": 1.03,
+            "gas": 1.55,
+            "travel": 1.55,
+            "entertainment": 1.03,
+            "bill_payments": 1.03,
+            "store_specific": false
+        }
+    },
+    "cibc_dividend_visa_infinite_card": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/com/flat/cibc-visa-dividend-infinite-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Dividend\u00ae Visa Infinite Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.0,
+            "restaurant": 2.0,
+            "grocery": 4.0,
+            "drug_store": 2.0,
+            "gas": 4.0,
+            "travel": 2.0,
+            "entertainment": 1.0,
+            "bill_payments": 2.0,
+            "store_specific": false
+        }
+    },
+    "cibc_dividend_platinum_visa_card": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/com/flat/cibc-visa-dividend-platinum-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Dividend Platinum\u00ae Visa Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.0,
+            "restaurant": 2.0,
+            "grocery": 3.0,
+            "drug_store": 1.0,
+            "gas": 3.0,
+            "travel": 2.0,
+            "entertainment": 1.0,
+            "bill_payments": 2.0,
+            "store_specific": false
+        }
+    },
+    "_cibc_dividend_visa_card": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/com/flat/cibc-visa-dividend-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": " CIBC Dividend\u00ae Visa Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.5,
+            "restaurant": 1.0,
+            "grocery": 2.0,
+            "drug_store": 0.5,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 0.5,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "cibc_dividend_visa_card_for_students": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/com/flat/cibc-visa-dividend-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Dividend\u00ae Visa Card for Students",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.5,
+            "restaurant": 1.0,
+            "grocery": 2.0,
+            "drug_store": 0.5,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 0.5,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "cibc_us_dollar_aventura_gold_visa_card": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/com/flat/cibc-visa-us-dollar-aventura-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC U.S. Dollar Aventura\u00ae Gold Visa Card",
+        "type": "Points",
+        "point_type": "Adventura",
+        "points": {
+            "general": 0.58,
+            "restaurant": 0.58,
+            "grocery": 0.58,
+            "drug_store": 0.58,
+            "gas": 0.58,
+            "travel": 0.58,
+            "entertainment": 0.58,
+            "bill_payments": 0.58,
+            "store_specific": false
+        }
+    },
+    "cibc_select_visa_card": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/com/flat/cibc-visa-select-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Select Visa Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "cibc_aventura_visa_card_for_business": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/com/flat/cibc-visa-aventura-gold-business-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Aventura\u00ae Visa Card for Business",
+        "type": "Points",
+        "point_type": "Aventura",
+        "points": {
+            "general": 1.16,
+            "restaurant": 1.16,
+            "grocery": 1.16,
+            "drug_store": 1.16,
+            "gas": 1.74,
+            "travel": 1.74,
+            "entertainment": 1.16,
+            "bill_payments": 1.16,
+            "store_specific": false
+        }
+    },
+    "cibc_aeroplan_visa_business_card": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/online-banking/ps-ac/cibc-olb-ps-ac-aeroplan-business-front-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Aeroplan\u00ae Visa Business Card",
+        "type": "Points",
+        "point_type": "Aeroplan",
+        "points": {
+            "general": 1.55,
+            "restaurant": 2.325,
+            "grocery": 1.55,
+            "drug_store": 1.55,
+            "gas": 1.55,
+            "travel": 2.325,
+            "entertainment": 1.55,
+            "bill_payments": 2.325,
+            "store_specific": {
+                "air_canada": {
+                    "name": "Air Canada",
+                    "cashback": 3.1
+                },
+                "air_canada_vacations": {
+                    "name": "Air Canada Vacations",
+                    "cashback": 3.1
+                }
+            }
+        }
+    },
+    "cibc_aventura_visa_card_for_business_plus": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/com/flat/cibc-visa-aventura-business-plus-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Aventura\u00ae Visa Card for Business Plus",
+        "type": "Points",
+        "point_type": "Aventura",
+        "points": {
+            "general": 1.16,
+            "restaurant": 1.16,
+            "grocery": 1.16,
+            "drug_store": 1.16,
+            "gas": 1.74,
+            "travel": 1.74,
+            "entertainment": 1.16,
+            "bill_payments": 1.16,
+            "store_specific": false
+        }
+    },
+    "cibc_aeroplan_visa_business_plus_card": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/online-banking/ps-ac/cibc-olb-ps-ac-aeroplan-business-plus-front-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Aeroplan\u00ae Visa Business Plus Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "cibc_bizline_visa_card_for_business": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/com/flat/cibc-visa-bizline-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC bizline\u00ae Visa Card for Business",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "cibc_corporate_classic_plus_visa_card": {
+        "bank": "CIBC",
+        "image": "https://www.cibc.com/content/dam/global/card_images/com/flat/cibc-visa-corporate-classic-plus-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
+        "name": "CIBC Corporate Classic Plus Visa Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "td_cash_back_visa_infinite_card": {
+        "bank": "TD",
+        "image": "https://www.td.com/ca/en/personal-banking/images/Cash-Back-Infinite_EN_Comp27_548x344_tcm341-338965.jpg",
+        "name": "TD Cash Back Visa Infinite Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 3.0,
+            "drug_store": 1.0,
+            "gas": 3.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 3.0,
+            "store_specific": false
+        }
+    },
+    "td_cash_back_visa_card": {
+        "bank": "TD",
+        "image": "https://www.td.com/ca/en/personal-banking/images/Cash-Back-Entry_EN_Comp27_548x344_tcm341-338966.jpg",
+        "name": "TD Cash Back Visa Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.5,
+            "restaurant": 0.5,
+            "grocery": 1.0,
+            "drug_store": 0.5,
+            "gas": 1.0,
+            "travel": 0.5,
+            "entertainment": 0.5,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "td_aeroplan_visa_infinite_card": {
+        "bank": "TD",
+        "image": "https://www.td.com/ca/en/personal-banking/images/TD_Aeroplan_Infinite_Comp27_EN_FR_548x344_tcm341-336442.jpg",
+        "name": "TD\u00ae Aeroplan\u00ae Visa Infinite Card",
+        "type": "Points",
+        "point_type": "Aeroplan",
+        "points": {
+            "general": 1.55,
+            "restaurant": 1.55,
+            "grocery": 2.33,
+            "drug_store": 1.55,
+            "gas": 2.33,
+            "travel": 2.33,
+            "entertainment": 1.55,
+            "bill_payments": 1.55,
+            "store_specific": false
+        }
+    },
+    "td_aeroplan_visa_platinum_card": {
+        "bank": "TD",
+        "image": "https://www.td.com/ca/en/personal-banking/images/TD_Aeroplan_Platinum_Comp27_EN_548x344_tcm341-336443.jpg",
+        "name": "TD\u00ae Aeroplan\u00ae Visa Platinum Card",
+        "type": "Points",
+        "point_type": "Aeroplan",
+        "points": {
+            "general": 1.03,
+            "restaurant": 1.03,
+            "grocery": 1.55,
+            "drug_store": 1.03,
+            "gas": 1.55,
+            "travel": 1.55,
+            "entertainment": 1.03,
+            "bill_payments": 1.03,
+            "store_specific": false
+        }
+    },
+    "td_aeroplan_visa_infinite_privilege_card": {
+        "bank": "TD",
+        "image": "https://www.td.com/ca/en/personal-banking/images/TD_Aeroplan_Infinite_Privilege_Comp27_EN_FR_548x344_tcm341-336444.jpg",
+        "name": "TD\u00ae Aeroplan\u00ae Visa Infinite Privilege Card",
+        "type": "Points",
+        "point_type": "Aeroplan",
+        "points": {
+            "general": 1.94,
+            "restaurant": 2.48,
+            "grocery": 2.48,
+            "drug_store": 1.94,
+            "gas": 2.48,
+            "travel": 2.48,
+            "entertainment": 1.94,
+            "bill_payments": 1.94,
+            "store_specific": false
+        }
+    },
+    "td_first_class_travel_visa_infinite_card": {
+        "bank": "TD",
+        "image": "https://www.td.com/ca/en/personal-banking/images/First-Class-Travel_EN_Comp27_548x344_tcm341-234262.jpg",
+        "name": "TD First Class Travel Visa Infinite Card",
+        "type": "Points",
+        "point_type": "TD Rewards Points",
+        "points": {
+            "general": 1.5,
+            "restaurant": 1.5,
+            "grocery": 1.5,
+            "drug_store": 1.5,
+            "gas": 1.5,
+            "travel": 1.5,
+            "entertainment": 1.5,
+            "bill_payments": 1.5,
+            "store_specific": false
+        }
+    },
+    "td_platinum_travel_visa_card": {
+        "bank": "TD",
+        "image": "https://www.td.com/ca/en/personal-banking/images/Platinum-Travel_EN_Comp27_548x344_tcm341-338972.jpg",
+        "name": "TD Platinum Travel Visa Card",
+        "type": "Points",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "td_rewards_visa_card": {
+        "bank": "TD",
+        "image": "https://www.td.com/ca/en/personal-banking/images/TD-Rewards_EN_Comp27_548x344_tcm341-338969.jpg",
+        "name": "TD Rewards Visa Card",
+        "type": "Points",
+        "point_type": "TD Rewards Points",
+        "points": {
+            "general": 0.5,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 0.5,
+            "gas": 0.5,
+            "travel": 0.5,
+            "entertainment": 0.5,
+            "bill_payments": 1.0,
+            "store_specific": {
+                "expedia": {
+                    "name": "Expedia",
+                    "cashback": 1.5
+                }
+            }
+        }
+    },
+    "td_emerald_flex_rate_visa_card": {
+        "bank": "TD",
+        "image": "https://www.td.com/ca/en/personal-banking/images/Emerald_EN_Comp27_548x344_tcm341-338971.jpg",
+        "name": "TD Emerald Flex Rate Visa Card",
+        "type": "Points",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "td_us_dollar_visa_card": {
+        "bank": "TD",
+        "image": "https://www.td.com/ca/en/personal-banking/images/USD_EN_Comp27_548x344_tcm341-339121.jpg",
+        "name": "TD U.S. Dollar Visa Card",
+        "type": " ",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "td_business_travel_visa_card": {
+        "bank": "TD",
+        "image": "https://www.td.com/ca/en/personal-banking/images/BTV_EN_Comp27_548x344_tcm341-234292.jpg",
+        "name": "TD Business Travel Visa Card",
+        "type": "Points",
+        "point_type": "TD Rewards Points",
+        "points": {
+            "general": 1.0,
+            "restaurant": 3.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 3.0,
+            "store_specific": {
+                "forex": {
+                    "name": "Foreign Exchange",
+                    "cashback": 3.0
+                },
+                "expedia": {
+                    "name": "Expedia",
+                    "cashback": 4.5
+                }
+            }
+        }
+    },
+    "td_aeroplan_visa_business_card": {
+        "bank": "TD",
+        "image": "https://www.td.com/ca/en/personal-banking/images/Aeroplan-Business-Visa-Card_EN_Comp39_255x160_tcm341-338209.jpg",
+        "name": "TD\u00ae Aeroplan\u00ae Visa Business Card",
+        "type": "Points",
+        "point_type": "Aeroplan",
+        "points": {
+            "general": 1.55,
+            "restaurant": 2.33,
+            "grocery": 1.55,
+            "drug_store": 1.55,
+            "gas": 1.55,
+            "travel": 2.33,
+            "entertainment": 1.55,
+            "bill_payments": 2.33,
+            "store_specific": {
+                "air_canada": {
+                    "name": "Air Canada",
+                    "cashback": 3.1
+                },
+                "air_canada_vacations": {
+                    "name": "Air Canada Vacations",
+                    "cashback": 3.1
+                }
+            }
+        }
+    },
+    "td_business_cash_back_visa_card": {
+        "bank": "TD",
+        "image": "https://www.td.com/ca/en/personal-banking/images/BCB_EN_Comp27_548x344_tcm341-338968.jpg",
+        "name": "TD Business Cash Back Visa Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.5,
+            "restaurant": 0.5,
+            "grocery": 0.5,
+            "drug_store": 0.5,
+            "gas": 2.0,
+            "travel": 0.5,
+            "entertainment": 0.5,
+            "bill_payments": 2.0,
+            "store_specific": {
+                "office_supplies": {
+                    "name": "Office Supplies",
+                    "cashback": 2.0
+                }
+            }
+        }
+    },
+    "td_business_select_ratetm_visa_card": {
+        "bank": "TD",
+        "image": "https://www.td.com/ca/en/personal-banking/images/BSR_EN_Comp27_548x344_tcm341-338970.jpg",
+        "name": "TD Business Select RateTM Visa Card",
+        "type": " ",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "bmo_eclipse_visa_infinite_card": {
+        "bank": "BMO",
+        "image": "https://www.bmo.com/dist/images/personal/credit-cards/card-art/bmo-eclipse-infinite.png",
+        "name": "BMO eclipse Visa Infinite Card",
+        "type": "Points",
+        "point_type": "BMO",
+        "points": {
+            "general": 0.67,
+            "restaurant": 3.35,
+            "grocery": 3.35,
+            "drug_store": 0.67,
+            "gas": 3.35,
+            "travel": 3.35,
+            "entertainment": 0.67,
+            "bill_payments": 0.67,
+            "store_specific": false
+        }
+    },
+    "bmo_eclipse_visa_infinite_privilege_card": {
+        "bank": "BMO",
+        "image": "https://www.bmo.com/dist/images/personal/credit-cards/card-art/bmo-eclipse-infinite-privilege.png",
+        "name": "BMO eclipse Visa Infinite Privilege Card",
+        "type": "Points",
+        "point_type": "BMO",
+        "points": {
+            "general": 0.67,
+            "restaurant": 3.35,
+            "grocery": 3.35,
+            "drug_store": 3.35,
+            "gas": 3.35,
+            "travel": 3.35,
+            "entertainment": 0.67,
+            "bill_payments": 0.67,
+            "store_specific": false
+        }
+    },
+    "bmo_cashback_mastercard": {
+        "bank": "BMO",
+        "image": "https://www.bmo.com/dist/images/personal/credit-cards/card-art/bmo-cashback-mastercard.jpg",
+        "name": "BMO CashBack\u00ae Mastercard\u00ae",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.5,
+            "restaurant": 0.5,
+            "grocery": 3.0,
+            "drug_store": 0.5,
+            "gas": 0.5,
+            "travel": 0.5,
+            "entertainment": 0.5,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "bmo_preferred_rate_mastercard": {
+        "bank": "BMO",
+        "image": "https://www.bmo.com/dist/images/personal/credit-cards/card-art/bmo-preferred-rate.jpg",
+        "name": "BMO Preferred Rate Mastercard\u00ae",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "bmo_world_elite_mastercard": {
+        "bank": "BMO",
+        "image": "https://www.bmo.com/dist/images/personal/credit-cards/card-art/bmo-rewards-world-elite-mastercard.jpg",
+        "name": "BMO World Elite\u00ae Mastercard\u00ae",
+        "type": "Points",
+        "point_type": "BMO",
+        "points": {
+            "general": 1.34,
+            "restaurant": 2.01,
+            "grocery": 2.01,
+            "drug_store": 1.34,
+            "gas": 1.34,
+            "travel": 2.01,
+            "entertainment": 2.01,
+            "bill_payments": 1.34,
+            "store_specific": false
+        }
+    },
+    "bmo_air_miles_mastercard": {
+        "bank": "BMO",
+        "image": "https://www.bmo.com/dist/images/personal/credit-cards/card-art/bmo-air-miles-mastercard.jpg",
+        "name": "BMO AIR MILES\u00ae Mastercard\u00ae",
+        "type": "Points",
+        "point_type": "Air Miles",
+        "points": {
+            "general": 0.4,
+            "restaurant": 0.4,
+            "grocery": 0.4,
+            "drug_store": 0.4,
+            "gas": 0.4,
+            "travel": 1.2,
+            "entertainment": 0.4,
+            "bill_payments": 0.4,
+            "store_specific": false
+        }
+    },
+    "bmo_cashback_world_elite_mastercard": {
+        "bank": "BMO",
+        "image": "https://www.bmo.com/dist/images/personal/credit-cards/card-art/bmo-cashback-world-elite-mastercard.jpg",
+        "name": "BMO CashBack\u00ae World Elite\u00ae Mastercard\u00ae",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 5.0,
+            "drug_store": 1.0,
+            "gas": 3.0,
+            "travel": 4.0,
+            "entertainment": 1.0,
+            "bill_payments": 2.0,
+            "store_specific": false
+        }
+    },
+    "bmo_air_miles_world_elite_mastercard": {
+        "bank": "BMO",
+        "image": "https://www.bmo.com/dist/images/personal/credit-cards/card-art/bmo-air-miles-world-elite-mastercard.jpg",
+        "name": "BMO AIR MILES\u00ae World Elite\u00ae Mastercard\u00ae",
+        "type": "Points",
+        "point_type": "Air Miles",
+        "points": {
+            "general": 0.83,
+            "restaurant": 0.83,
+            "grocery": 0.83,
+            "drug_store": 0.83,
+            "gas": 0.83,
+            "travel": 2.5,
+            "entertainment": 0.83,
+            "bill_payments": 0.83,
+            "store_specific": false
+        }
+    },
+    "bmo_prepaid_travel_mastercard": {
+        "bank": "BMO",
+        "image": "https://www.bmo.com/dist/images/personal/credit-cards/card-art/bmo-prepaid-travel-mastercard.jpg",
+        "name": "BMO Prepaid Travel Mastercard\u00ae",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "bmo_rewards_mastercard": {
+        "bank": "BMO",
+        "image": "https://www.bmo.com/dist/images/personal/credit-cards/card-art/bmo-rewards-mastercard.jpg",
+        "name": "BMO Rewards\u00ae Mastercard\u00ae",
+        "type": "Points",
+        "point_type": "BMO",
+        "points": {
+            "general": 0.67,
+            "restaurant": 0.67,
+            "grocery": 0.67,
+            "drug_store": 0.67,
+            "gas": 0.67,
+            "travel": 0.67,
+            "entertainment": 0.67,
+            "bill_payments": 0.67,
+            "store_specific": false
+        }
+    },
+    "bmo_us_dollar_mastercard": {
+        "bank": "BMO",
+        "image": "https://www.bmo.com/dist/images/personal/credit-cards/card-art/bmo-us-dollar.jpg",
+        "name": "BMO U.S. Dollar Mastercard\u00ae",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "student_bmo_cashback_mastercard": {
+        "bank": "BMO",
+        "image": "https://www.bmo.com/dist/images/personal/credit-cards/card-art/bmo-student-cashback.jpg",
+        "name": "Student BMO CashBack\u00ae Mastercard\u00ae",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.5,
+            "restaurant": 0.5,
+            "grocery": 3.0,
+            "drug_store": 0.5,
+            "gas": 0.5,
+            "travel": 0.5,
+            "entertainment": 0.5,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "student_bmo_air_miles_mastercard": {
+        "bank": "BMO",
+        "image": "https://www.bmo.com/dist/images/personal/credit-cards/card-art/bmo-student-air-miles.jpg",
+        "name": "Student BMO AIR MILES\u00ae Mastercard\u00ae",
+        "type": "Points",
+        "point_type": "Air Miles",
+        "points": {
+            "general": 0.4,
+            "restaurant": 0.4,
+            "grocery": 0.4,
+            "drug_store": 0.4,
+            "gas": 0.4,
+            "travel": 1.2,
+            "entertainment": 0.4,
+            "bill_payments": 0.4,
+            "store_specific": false
+        }
+    },
+    "guaranteed_mastercard": {
+        "bank": "CapitalOne",
+        "image": "https://www.capitalone.ca/static/gm-static-6f26a4ad18798737f744355146ea66c6.png",
+        "name": "Guaranteed Mastercard\u00ae",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "low_rate_guaranteed_mastercard": {
+        "bank": "CapitalOne",
+        "image": "https://www.capitalone.ca/static/gm-static-6f26a4ad18798737f744355146ea66c6.png",
+        "name": "Low Rate Guaranteed Mastercard\u00ae",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "guaranteed_secured_mastercard": {
+        "bank": "CapitalOne",
+        "image": "https://www.capitalone.ca/static/gsm-static-6f26a4ad18798737f744355146ea66c6.png",
+        "name": "Guaranteed Secured Mastercard\u00ae",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "aspire_travel_platinum_mastercard": {
+        "bank": "CapitalOne",
+        "image": "https://www.capitalone.ca/static/atp-en-static-d97169a174f8da97cf67856c0ea37cc2.png",
+        "name": "Aspire Travel\u2122 Platinum Mastercard\u00ae",
+        "type": "Points",
+        "point_type": "CapitalOne Travel",
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "aspire_cash_platinum_mastercard": {
+        "bank": "CapitalOne",
+        "image": "https://www.capitalone.ca/static/acp-en-static-55d82dcb91bcf839ccb5e2d481aca3e0.png",
+        "name": "Aspire Cash\u2122 Platinum Mastercard\u00ae",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "capital_one_mastercard_exclusively_for_costco_members": {
+        "bank": "CapitalOne",
+        "image": "https://www.capitalone.ca/static/costco-static-2d19e1e24796c97a9cd1ab571cc8350d.png",
+        "name": "Capital One Mastercard\u00ae, Exclusively for Costco Members",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.0,
+            "restaurant": 3.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 2.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "brim_credit_card": {
+        "bank": "Brim",
+        "image": "https://brimfinancial.com/images/CARD_n1.png",
+        "name": "Brim Credit Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": {
+                "amazon": {
+                    "name": "Amazon",
+                    "cashback": 2.0
+                },
+                "spotify": {
+                    "name": "Spotify",
+                    "cashback": 2.0
+                },
+                "netflix": {
+                    "name": "Netflix",
+                    "cashback": 2.0 
+                }
+            }
+        }
+    },
+    "brim_world_credit_card": {
+        "bank": "Brim",
+        "image": "https://brimfinancial.com/images/CARD_n2.png",
+        "name": "Brim World Credit Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.5,
+            "restaurant": 1.5,
+            "grocery": 1.5,
+            "drug_store": 1.5,
+            "gas": 1.5,
+            "travel": 1.5,
+            "entertainment": 1.5,
+            "bill_payments": 1.5,
+            "store_specific": {
+                "amazon": {
+                    "name": "Amazon",
+                    "cashback": 3.0
+                },
+                "spotify": {
+                    "name": "Spotify",
+                    "cashback": 3.0
+                },
+                "netflix": {
+                    "name": "Netflix",
+                    "cashback": 3.0 
+                }
+            }
+        }
+    },
+    "brim_world_elite_credit_card": {
+        "bank": "Brim",
+        "image": "https://brimfinancial.com/images/CARD_n3.png",
+        "name": "Brim World Elite Credit Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 2.0,
+            "restaurant": 2.0,
+            "grocery": 2.0,
+            "drug_store": 2.0,
+            "gas": 2.0,
+            "travel": 2.0,
+            "entertainment": 2.0,
+            "bill_payments": 2.0,
+            "store_specific": {
+                "amazon": {
+                    "name": "Amazon",
+                    "cashback": 4.0
+                },
+                "spotify": {
+                    "name": "Spotify",
+                    "cashback": 4.0
+                },
+                "netflix": {
+                    "name": "Netflix",
+                    "cashback": 4.0 
+                }
+            }
+        }
+    },
+    "triangle_master_card": {
+        "bank": "Triangle",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQegjtaYIcTPX5mtAoTLj_lKI8nPfy9W1w8xmde5OvgtNIQDhb4yfe2WPsSdT01BNk_Owk&usqp=CAU",
+        "name": "Triangle Master Card",
+        "type": "Points",
+        "point_type": "Canadian Tire Money",
+        "points": {
+            "general": 0.5,
+            "restaurant": 0.5,
+            "grocery": 1.5,
+            "drug_store": 0.5,
+            "gas": 0.5,
+            "travel": 0.5,
+            "entertainment": 0.5,
+            "bill_payments": 0.5,
+            "store_specific": {
+                "canadian_tire": {
+                    "name": "Canadian Tire",
+                    "cashback": 4.0
+                },
+                "sportscheck": {
+                    "name": "SportsCheck",
+                    "cashback": 4.0
+                },
+                "atmosphere": {
+                    "name": "Atmosphere",
+                    "cashback": 4.0 
+                }
+            }
+        }
+    },
+    "triangle_world_master_card": {
+        "bank": "Triangle",
+        "image": "https://insureye.com/Reviews/reviews-files/styles/medium/public/product/2021-02/triangle-world-mastercard.png?itok=ShEeqZnn",
+        "name": "Triangle World Master Card",
+        "type": "Points",
+        "point_type": "Canadian Tire Money",
+        "points": {
+            "general": 1.0,
+            "restaurant": 3.0,
+            "grocery": 3.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": {
+                "canadian_tire": {
+                    "name": "Canadian Tire",
+                    "cashback": 4.0
+                },
+                "sportscheck": {
+                    "name": "SportsCheck",
+                    "cashback": 4.0
+                },
+                "atmosphere": {
+                    "name": "Atmosphere",
+                    "cashback": 4.0 
+                }
+            }
+        }
+    },
+    "triangle_world_elite_master_card": {
+        "bank": "Triangle",
+        "image": "https://media.creditcardgenius.ca/credit-card-images/lg/canadian-tire-triangle-world-elite-mastercard.png",
+        "name": "Triangle World Elite Master Card",
+        "type": "Points",
+        "point_type": "Canadian Tire Money",
+        "points": {
+            "general": 1.0,
+            "restaurant": 3.0,
+            "grocery": 3.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": {
+                "canadian_tire": {
+                    "name": "Canadian Tire",
+                    "cashback": 4.0
+                },
+                "sportscheck": {
+                    "name": "SportsCheck",
+                    "cashback": 4.0
+                },
+                "atmosphere": {
+                    "name": "Atmosphere",
+                    "cashback": 4.0 
+                }
+            }
+        }
+    },
+    "canadian_tire_gas_advantage": {
+        "bank": "Canadian Tire",
+        "image": "https://canadiantire.scene7.com/is/image/CanadianTire/CardSelector_OMP_EN_2X?wid=435",
+        "name": "Canadian Tire Gas Advantage",
+        "type": "Points",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "canadian_tire_cash_advantage": {
+        "bank": "Canadian Tire",
+        "image": "https://canadiantire.scene7.com/is/image/CanadianTire/CardSelector_OMR_EN_2X?wid=435",
+        "name": "Canadian Tire Cash Advantage",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.25,
+            "restaurant": 0.25,
+            "grocery": 0.5,
+            "drug_store": 0.25,
+            "gas": 0.25,
+            "travel": 0.25,
+            "entertainment": 0.25,
+            "bill_payments": 0.25,
+            "store_specific": {
+                "canadian_tire_gas": {
+                    "name": "Candian Tire Gas",
+                    "cashback": 0.5
+                },
+                "husky_gas": {
+                    "name": "Husky Gas",
+                    "cashback": 0.5
+                }
+            }
+        }
+    },
+    "simplycashtm_preferred_card_from_american_express": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/SimplyCash_Preferred_Card.png",
+        "name": "SimplyCashTM Preferred Card from American Express",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 2.0,
+            "restaurant": 2.0,
+            "grocery": 2.0,
+            "drug_store": 2.0,
+            "gas": 2.0,
+            "travel": 2.0,
+            "entertainment": 2.0,
+            "bill_payments": 2.0,
+            "store_specific": false
+        }
+    },
+    "simplycashtm_card_from_american_express": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/SimplyCash_Card.png",
+        "name": "SimplyCashTM Card from American Express",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.25,
+            "restaurant": 1.25,
+            "grocery": 1.25,
+            "drug_store": 1.25,
+            "gas": 1.25,
+            "travel": 1.25,
+            "entertainment": 1.25,
+            "bill_payments": 1.25,
+            "store_specific": false
+        }
+    },
+    "american_express_aeroplan_reserve_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/aeroplan-reserve-card.png",
+        "name": "American Express\u00ae Aeroplan\u00ae* Reserve Card",
+        "type": "Points",
+        "point_type": "Air Miles",
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "american_express_aeroplan_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/aeroplan-card.png",
+        "name": "American Express\u00ae Aeroplan\u00ae* Card",
+        "type": "Points ",
+        "point_type": "Air Miles",
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "american_express_cobalttm_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/American_Express_Cobalt_Card.png",
+        "name": "American Express CobaltTM Card",
+        "type": "Points ",
+        "point_type": "Air Miles",
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "the_american_express_gold_rewards_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/Gold_Rewards_Card.png",
+        "name": "The American Express\u00ae Gold Rewards Card",
+        "type": "Points",
+        "point_type": "Air Miles",
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "the_platinum_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/The_Platinum_Card.png",
+        "name": "The Platinum Card\u00ae",
+        "type": "Points",
+        "point_type": "Air Miles",
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "choice_card_from_american_expresstm": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/Choice-Card-Art.png",
+        "name": "Choice Card from American ExpressTM",
+        "type": "Points",
+        "point_type": "Air Miles",
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "american_express_essentialtm_credit_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/Essential_Credit_Card.png",
+        "name": "American Express EssentialTM Credit Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "marriott_bonvoytm_american_express_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/marriott-bonvoy-card.png",
+        "name": "Marriott BonvoyTM American Express\u00ae Card",
+        "type": "Points",
+        "point_type": "Mariott Bonvoy",
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "american_express_air_miles_reserve_credit_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/Air_Miles_Reserve_Credit_Card.png",
+        "name": "American Express\u00ae AIR MILES\u00ae* Reserve Credit Card",
+        "type": "Points",
+        "point_type": "Air Miles",
+        "points": {
+            "general": 0.75,
+            "restaurant": 0.75,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 0.75,
+            "bill_payments": 0.75,
+            "store_specific": false
+        }
+    },
+    "american_express_air_miles_platinum_credit_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/Air_Miles_Platinum_Credit_Card.png",
+        "name": "American Express\u00ae AIR MILES\u00ae* Platinum Credit Card",
+        "type": "Points",
+        "point_type": "Air Miles",
+        "points": {
+            "general": 1.0,
+            "restaurant": 2.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 2.0,
+            "travel": 2.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "american_express_air_miles_credit_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/Air_Miles_Credit_Card.png",
+        "name": "American Express\u00ae AIR MILES\u00ae* Credit Card",
+        "type": "Points",
+        "point_type": "Air Miles",
+        "points": {
+            "general": 0.5,
+            "restaurant": 0.5,
+            "grocery": 0.5,
+            "drug_store": 0.5,
+            "gas": 0.5,
+            "travel": 0.5,
+            "entertainment": 0.5,
+            "bill_payments": 0.5,
+            "store_specific": false
+        }
+    },
+    "american_express_aeroplan_business_reserve_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/American_Express_Aeroplan_Business_Reserve_Card_prem_sbs.png",
+        "name": "American Express\u00ae Aeroplan\u00ae* Business Reserve Card",
+        "type": "Points",
+        "point_type": "Air Miles",
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "business_platinum_card_from_american_express": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/Business_Platinum_Card.png",
+        "name": "Business Platinum Card\u00ae from American Express",
+        "type": "Points",
+        "point_type": "Amex Points",
+        "points": {
+            "general": 0.88,
+            "restaurant": 0.88,
+            "grocery": 0.88,
+            "drug_store": 0.88,
+            "gas": 0.88,
+            "travel": 0.88,
+            "entertainment": 0.88,
+            "bill_payments": 0.88,
+            "store_specific": false
+        }
+    },
+    "american_express_business_edgetm_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/edge-business.png",
+        "name": "American Express Business EdgeTM Card",
+        "type": "Points",
+        "point_type": "Amex Points",
+        "points": {
+            "general": 0.7,
+            "restaurant": 2.1,
+            "grocery": 0.7,
+            "drug_store": 0.7,
+            "gas": 2.1,
+            "travel": 0.7,
+            "entertainment": 0.7,
+            "bill_payments": 0.7,
+            "store_specific": false
+        }
+    },
+    "american_express_business_gold_rewards_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/Business_Gold_Rewards_Card.png",
+        "name": "American Express\u00ae Business Gold Rewards Card",
+        "type": "Points",
+        "point_type": "Amex Points",
+        "points": {
+            "general": 0.7,
+            "restaurant": 0.7,
+            "grocery": 0.7,
+            "drug_store": 0.7,
+            "gas": 0.7,
+            "travel": 0.7,
+            "entertainment": 0.7,
+            "bill_payments": 0.7,
+            "store_specific": false
+        }
+    },
+    "marriott_bonvoytm_business_american_express_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/marriott-bonvoy-Business_Credit_Card.png",
+        "name": "Marriott BonvoyTM Business American Express\u00ae Card",
+        "type": "Points",
+        "point_type": "Mariott Bonvoy",
+        "points": {
+            "general": 1.4,
+            "restaurant": 2.1,
+            "grocery": 1.4,
+            "drug_store": 1.4,
+            "gas": 2.1,
+            "travel": 2.1,
+            "entertainment": 1.4,
+            "bill_payments": 1.4,
+            "store_specific": {
+                "mariott_bonvoy": {
+                    "name": "Mariott Bonvoy",
+                    "cashback": 3.5
+                }
+            }
+        }
+    },
+    "american_express_air_miles_for_business_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/AIR_MILES_for_Business_Card.png",
+        "name": "American Express\u00ae AIR MILES\u00ae* for Business Card",
+        "type": "Points",
+        "point_type": "Air Miles",
+        "points": {
+            "general": 0.75,
+            "restaurant": 0.75,
+            "grocery": 0.75,
+            "drug_store": 0.75,
+            "gas": 0.75,
+            "travel": 0.75,
+            "entertainment": 0.75,
+            "bill_payments": 0.75,
+            "store_specific": false
+        }
+    },
+    "american_express_air_miles_gold_business_card": {
+        "bank": "Amex",
+        "image": "https://icm.aexp-static.com/Internet/internationalcardshop/en_ca/images/cards/AIR_MILES_Gold_Business_Card.png",
+        "name": "American Express\u00ae AIR MILES\u00ae* Gold Business Card",
+        "type": "Points",
+        "point_type": "Air Miles",
+        "points": {
+            "general": 0.5,
+            "restaurant": 0.5,
+            "grocery": 0.5,
+            "drug_store": 0.5,
+            "gas": 0.5,
+            "travel": 0.5,
+            "entertainment": 0.5,
+            "bill_payments": 0.5,
+            "store_specific": false
+        }
+    },
+    "mbna_true_linemastercard": {
+        "bank": "MNBA",
+        "image": "https://www.mbna.ca/en/images/true-line-medium-en_tcm378-267320.png",
+        "name": "MBNA True Line\u00aeMastercard\u00ae",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "mbna_true_line_gold_mastercard": {
+        "bank": "MNBA",
+        "image": "https://www.mbna.ca/en/images/true-line-gold-medium-en_tcm378-268790.png",
+        "name": "MBNA True Line Gold Mastercard\u00ae",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "mbna_rewards_platinum_plus_mastercard": {
+        "bank": "MNBA",
+        "image": "https://www.mbna.ca/en/images/mbna-rewards-medium-en_tcm378-267369.png",
+        "name": "MBNA Rewards Platinum Plus\u00ae Mastercard\u00ae",
+        "type": "Points",
+        "point_type": "MBNA Points",
+        "points": {
+            "general": 1.0,
+            "restaurant": 4.0,
+            "grocery": 4.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 4.0,
+            "store_specific": false
+        }
+    },
+    "mbna_rewards_world_elite_mastercard": {
+        "bank": "MNBA",
+        "image": "https://www.mbna.ca/en/images/TDMB-0006_CreditCard_Rewards_World_Elite_170x107_En_tcm378-287453.png",
+        "name": "MBNA Rewards World Elite\u00ae Mastercard\u00ae",
+        "type": "Points",
+        "point_type": "MBNA Points",
+        "points": {
+            "general": 1.0,
+            "restaurant": 5.0,
+            "grocery": 5.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 5.0,
+            "store_specific": false
+        }
+    },
+    "mbna_smart_cash_platinum_plus_mastercard": {
+        "bank": "MNBA",
+        "image": "https://www.mbna.ca/en/images/smart-cash-medium-en_tcm378-267340.png",
+        "name": "MBNA Smart Cash Platinum Plus\u00ae Mastercard\u00ae",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.5,
+            "restaurant": 0.5,
+            "grocery": 2.0,
+            "drug_store": 0.5,
+            "gas": 2.0,
+            "travel": 0.5,
+            "entertainment": 0.5,
+            "bill_payments": 0.5,
+            "store_specific": false
+        }
+    },
+    "mbna_smart_cash_world_mastercard": {
+        "bank": "MNBA",
+        "image": "https://www.mbna.ca/en/images/smart-cash-mdeium-world-elite-medium-en_tcm378-267457.png",
+        "name": "MBNA Smart Cash World Mastercard\u00ae",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 2.0,
+            "drug_store": 1.0,
+            "gas": 2.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "amazonca_rewards_mastercard": {
+        "bank": "MNBA",
+        "image": "https://www.mbna.ca/en/images/amazon-Mastercard-medium-banner_tcm378-292795.jpg",
+        "name": "Amazon.ca Rewards Mastercard\u00ae",
+        "type": "Points",
+        "point_type": "Amzn Rwards (PRIME)",
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": {
+                "amazon": {
+                    "name": "Amazon",
+                    "cashback": 2.5
+                },
+                "whole_foods": {
+                    "name": "Whole Foods",
+                    "cashback": 2.5
+                }
+            }
+        }
+    },
+    "alaska_airlines_world_elite_mastercard": {
+        "bank": "MNBA",
+        "image": "https://www.mbna.ca/en/images/TDMB-0006_CreditCard_WorldElite_Alaska_170x107_En_tcm378-289188.png",
+        "name": "Alaska Airlines\u00ae World Elite\u00ae Mastercard\u00ae",
+        "type": "Points",
+        "point_type": "Alaska Airlines Miles",
+        "points": {
+            "general": 1.67,
+            "restaurant": 1.67,
+            "grocery": 1.67,
+            "drug_store": 1.67,
+            "gas": 1.67,
+            "travel": 1.67,
+            "entertainment": 1.67,
+            "bill_payments": 1.67,
+            "store_specific": {
+                "alaska_airlines": {
+                    "name": "Alaska Airlines",
+                    "cashback": 5.01
+                }
+            }
+        }
+    },
+    "alaska_airlines_platinum_plus_mastercard": {
+        "bank": "MNBA",
+        "image": "https://www.mbna.ca/en/images/TDMB-0006_CreditCard_PlatinumPlus_Alaska_170x107_En_tcm378-289189.png",
+        "name": "Alaska Airlines\u00ae Platinum Plus\u00ae Mastercard\u00ae",
+        "type": "Points",
+        "point_type": "Alaska Airlines Miles",
+        "points": {
+            "general": 1.67,
+            "restaurant": 1.67,
+            "grocery": 1.67,
+            "drug_store": 1.67,
+            "gas": 1.67,
+            "travel": 1.67,
+            "entertainment": 1.67,
+            "bill_payments": 1.67,
+            "store_specific": {
+                "alaska_airlines": {
+                    "name": "Alaska Airlines",
+                    "cashback": 5.01
+                }
+            }
+        }
+    },
+    "best_western_rewards_mastercard": {
+        "bank": "MNBA",
+        "image": "https://www.mbna.ca/en/images/best-western-medium-en_tcm378-267438.png",
+        "name": "Best Western\u00ae Rewards Mastercard\u00ae",
+        "type": "Points",
+        "point_type": "Best Western Points",
+        "points": {
+            "general": 0.7,
+            "restaurant": 0.7,
+            "grocery": 0.7,
+            "drug_store": 0.7,
+            "gas": 0.7,
+            "travel": 0.7,
+            "entertainment": 0.7,
+            "bill_payments": 0.7,
+            "store_specific": {
+                "best_western": {
+                    "name": "Best Western",
+                    "cashback": 3.5
+                }
+            }
+        }
+    },
+    "harleydavidsonmastercard": {
+        "bank": "MNBA",
+        "image": "https://www.mbna.ca/en/images/harley-davidson-medium-en_tcm378-267342.png",
+        "name": "Harley-Davidson\u00aeMastercard\u00ae",
+        "type": "Points",
+        "point_type": "Harley-Davidson\u00ae Genuine Rewards Points",
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "nordstrom_rewards_visa": {
+        "bank": "MNBA",
+        "image": "https://www.mbna.ca/en/images/nordstrom-medium-en_tcm378-267450.png",
+        "name": "Nordstrom Rewards Visa",
+        "type": "Points",
+        "point_type": "Nordstrom Points",
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": {
+                "nordstrom": {
+                    "name": "Nordstrom Rack",
+                    "cashback": 2.0
+                },
+                "nordstrom_rack": {
+                    "name": "Nordstrom Rack",
+                    "cashback": 2.0
+                }
+            }
+        }
+    },
+    "melaleucamastercard": {
+        "bank": "MNBA",
+        "image": "https://www.mbna.ca/en/images/melaleuca-medium-en_tcm378-267338.png",
+        "name": "MelaleucaMastercard\u00ae",
+        "type": "Points",
+        "point_type": "Melaleuca Loyalty Shopping Dollars",
+        "points": {
+            "general": 1.0,
+            "restaurant": 4.0,
+            "grocery": 4.0,
+            "drug_store": 1.0,
+            "gas": 4.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "the_royal_canadian_legion_mbna_rewards_mastercard": {
+        "bank": "MNBA",
+        "image": "https://www.mbna.ca/en/images/AAGOXX_REW_CC_CTM_SML_MKT_E_tcm378-272710.png",
+        "name": "The Royal Canadian Legion\u00ae MBNA Rewards Mastercard\u00ae",
+        "type": "Points",
+        "point_type": "MBNA Points",
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 2.0,
+            "store_specific": false
+        }
+    },
+    "scotia_momentum_visa_infinite_card": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/Momentum_Visa_Infinite_ENG.png",
+        "name": "Scotia Momentum\u00ae Visa Infinite Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 4.0,
+            "drug_store": 1.0,
+            "gas": 2.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 4.0,
+            "store_specific": false
+        }
+    },
+    "scotiabank_passport_visa_infinite_card": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/Scotia_Passport_VisaInfinite_ENG.png",
+        "name": "Scotiabank Passport\u2122 Visa Infinite Card",
+        "type": "Points",
+        "point_type": "Scotia Rewards",
+        "points": {
+            "general": 1.0,
+            "restaurant": 2.0,
+            "grocery": 2.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 2.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "scotiabank_gold_american_express_card": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/Gold_American_Express_Card_Eng.png",
+        "name": "Scotiabank Gold American Express\u00ae Card",
+        "type": "Points",
+        "point_type": "Scotia Rewards",
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 3.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "scene_visa_card": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/Scotia_Scene_Eng.png",
+        "name": "SCENE\u00ae Visa Card",
+        "type": "Points",
+        "point_type": "SCENE",
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": {
+                "cineplex": {
+                    "name": "Cineplex",
+                    "cashback": 5.0
+                }
+            }
+        }
+    },
+    "scotia_momentum_mastercard_credit_card": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/Momentum_MC_ENG.png",
+        "name": "Scotia Momentum\u00ae Mastercard\u00ae Credit Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.5,
+            "restaurant": 0.5,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 0.5,
+            "entertainment": 0.5,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "scotia_momentum_visa_card": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/Momentum_Visa_ENG.png",
+        "name": "Scotia Momentum\u00ae Visa Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 2.0,
+            "drug_store": 2.0,
+            "gas": 2.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 2.0,
+            "store_specific": false
+        }
+    },
+    "scotia_momentum_nofee_visa_card": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/Momentum_Visa_ENG.png",
+        "name": "Scotia Momentum\u00ae No-Fee Visa Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.5,
+            "restaurant": 0.5,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 0.5,
+            "entertainment": 0.5,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "scotiabank_american_express_card": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/Amex_Red_ENG.png",
+        "name": "Scotiabank American Express\u00ae Card",
+        "type": "Points",
+        "point_type": "Scotiabank rewards points",
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "scotiabank_platinum_american_express_card": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/Amex_Platinum_ENG.png",
+        "name": "Scotiabank Platinum American Express\u00ae Card",
+        "type": "Points",
+        "point_type": "Scotiabank rewards points",
+        "points": {
+            "general": 1.0,
+            "restaurant": 4.0,
+            "grocery": 4.0,
+            "drug_store": 1.0,
+            "gas": 4.0,
+            "travel": 1.0,
+            "entertainment": 4.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "scotiagold_passport_visa_card": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/ScotiaGold_Passport_ENG.png",
+        "name": "ScotiaGold Passport\u00ae Visa Card",
+        "type": "Points",
+        "point_type": "Scotiabank rewards points",
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "scotiabank_value_visa_card": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/Value_Visa_ENG.png",
+        "name": "Scotiabank Value\u00ae Visa Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "scotiabank_gm_visa_infinite_card": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/ScotiaClassic_NoFee_ENG.png",
+        "name": "Scotiabank\u00ae GM\u00ae Visa Infinite Card",
+        "type": "Points",
+        "point_type": "GM Earnings",
+        "points": {
+            "general": 5.0,
+            "restaurant": 5.0,
+            "grocery": 5.0,
+            "drug_store": 5.0,
+            "gas": 5.0,
+            "travel": 5.0,
+            "entertainment": 5.0,
+            "bill_payments": 5.0,
+            "store_specific": false
+        }
+    },
+    "learn_visa_card": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/Learn_Visa_ENG.png",
+        "name": "L'earn\u2122 Visa Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": false
+        }
+    },
+    "scene_visa_cardstudent": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/Scotia_Scene_Eng.png",
+        "name": "SCENE\u00ae* Visa Card-Student",
+        "type": "Points",
+        "point_type": "SCENE",
+        "points": {
+            "general": 1.0,
+            "restaurant": 1.0,
+            "grocery": 1.0,
+            "drug_store": 1.0,
+            "gas": 1.0,
+            "travel": 1.0,
+            "entertainment": 1.0,
+            "bill_payments": 1.0,
+            "store_specific": {
+                "cineplex": {
+                    "name": "Cineplex",
+                    "cashback": 5.0
+                }
+            }
+        }
+    },
+    "scotiabank_gm_visa_card": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/ScotiaClassic_Infinite_ENG.png",
+        "name": "Scotiabank\u00ae GM\u00ae Visa Card",
+        "type": "Points",
+        "point_type": "GM Earnings",
+        "points": {
+            "general": 2.0,
+            "restaurant": 2.0,
+            "grocery": 2.0,
+            "drug_store": 2.0,
+            "gas": 2.0,
+            "travel": 2.0,
+            "entertainment": 2.0,
+            "bill_payments": 2.0,
+            "store_specific": false
+        }
+    },
+    "scotiabank__us_dollar_visa_card": {
+        "bank": "Scotiabank",
+        "image": "https://www.scotiabank.com/content/dam/scotiabank/canada/en/card-arts/BNSUSDollar_Visa_ENG.png",
+        "name": "Scotiabank \u00ae U.S. Dollar VISA Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 0.0,
+            "restaurant": 0.0,
+            "grocery": 0.0,
+            "drug_store": 0.0,
+            "gas": 0.0,
+            "travel": 0.0,
+            "entertainment": 0.0,
+            "bill_payments": 0.0,
+            "store_specific": false
+        }
+    },
+    "moneyback_credit_card": {
+        "bank": "Tangerine",
+        "image": "https://www.tangerine.ca/Tangerine_FBE/content/Main/Product_NEW/Spending/Credit-Card/images/General_Product_Page_Money_Back.png",
+        "name": "Money-Back Credit Card",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 2.0,
+            "restaurant": 2.0,
+            "grocery": 2.0,
+            "drug_store": 2.0,
+            "gas": 2.0,
+            "travel": 2.0,
+            "entertainment": 2.0,
+            "bill_payments": 2.0,
+            "store_specific": false
+        }
+    },
+    "world_mastercard": {
+        "bank": "Tangerine",
+        "image": "https://www.tangerine.ca/Tangerine_FBE/content/Main/Product_NEW/Spending/Credit-Card/images/General%20Product%20Page%20World%20Mastercard.png",
+        "name": "World Mastercard",
+        "type": "Cashback",
+        "point_type": false,
+        "points": {
+            "general": 2.0,
+            "restaurant": 2.0,
+            "grocery": 2.0,
+            "drug_store": 2.0,
+            "gas": 2.0,
+            "travel": 2.0,
+            "entertainment": 2.0,
+            "bill_payments": 2.0,
+            "store_specific": false
+        }
+    }
+}

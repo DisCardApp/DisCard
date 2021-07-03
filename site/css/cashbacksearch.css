@@ -16,7 +16,6 @@
 h1 {
     font-family:"Big Shoulders Stencil Display";
     font-size: 60px;
-    
 }
 
 .input-group {
@@ -31,4 +30,25 @@ h1 {
 .search-bar{
     height: 50px;
     width: 66%;
+}
+
+#myUL{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+#myUL li{
+    border:1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 12px;
+    color:black;
+    display: block;
+    
+}
+
+#myUL li a:hover{
+    background-color: #eee;
 }
