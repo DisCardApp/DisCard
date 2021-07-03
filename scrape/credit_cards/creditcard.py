@@ -1,6 +1,7 @@
 import csv
 import json
 
+
 def make_json(csvFilePath, jsonFilePath):
      
     # create a dictionary
@@ -49,5 +50,6 @@ def make_json(csvFilePath, jsonFilePath):
     # function to dump data
     with open(jsonFilePath, 'w', encoding='utf-8') as jsonf:
         jsonf.write(json.dumps(data, indent=4))
+
 
 make_json('Credit Card Database - Copy of Sheet1 (2).csv', 'credit_card_info.json')

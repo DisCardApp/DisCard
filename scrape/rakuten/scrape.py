@@ -28,7 +28,8 @@ for img in soup.find_all(attrs={"class": "lazy", "height":"27px"}):
 # Link
 i = 0
 for link in soup.find_all(attrs={"data-gtm-action": "ShoppingTrip"}):
-    info[i].append(link["data-store-url"])
+    url = f'https://www.rakuten.ca/{link["data-store-url"]}'
+    info[i].append(url)
     i += 1
 
 # Cashback
@@ -37,7 +38,6 @@ for cashback in soup.find_all(attrs={"class":"now_rebate prox-b f-15 lh-22 cb"})
     # print(cashback.get_text())
     info[i].append(cashback.get_text().strip())
     i += 1
-
 
 data = {}
 data['stores'] = {}
