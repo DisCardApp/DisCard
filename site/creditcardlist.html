@@ -15,10 +15,10 @@
   <!-- Add Firebase products that you want to use -->
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script>
   
   <script>
     // Set the configuration for your app
-    // TODO: Replace with your project's config object
     var config = {
       apiKey: "AIzaSyBiznsfWy2JfpyUU0cNroxCvAqj1DUKQ80",
       authDomain: "atlashacksii.firebaseapp.com",
@@ -79,14 +79,14 @@
   <!-- Add Card Modal -->
   <div class="modal fade" id="addCardModal" tabindex="-1" aria-labelledby="addCardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
+      <form id="addCardForm" class="modal-content needs-validation" action="javascript:void(0);" onSubmit="saveCard()" novalidate>
         <div class="modal-header">
           <h5 class="modal-title" id="addCardModalLabel">Add Card</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <div id="creditCardPreviewArea" class="position-relative d-flex justify-content-center border border-3 mb-3">
-            <label id="creditCardPreviewImgPickerLabel" for="creditCarcImgPickerForm" class="form-label">
+          <div id="creditCardPreviewArea" class="card-preview-area position-relative d-flex justify-content-center border border-3 mb-0">
+            <label id="creditCardPreviewImgPickerLabel" for="creditCardImgPickerForm" class="form-label m-0 p-0">
               <div id="creditCardPreviewImgPicker" class="position-absolute top-50 start-50 translate-middle">
                 <svg class="bi" width="64" height="64" fill="currentColor">
                   <use xlink:href="image/bootstrap-icons.svg#file-earmark-plus"/>
@@ -95,30 +95,38 @@
               <img id="creditCardPreviewImg" class="invisible" src="https://via.placeholder.com/860x540">
             </label>
           </div>
-          <input class="d-none" id="creditCarcImgPickerForm" type="file">
-          
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Name</span>
-            <input type="text" class="form-control" aria-describedby="basic-addon1">
+          <input class="d-none" id="creditCardImgPickerForm" type="file" accept="image/*" required>
+          <div class="invalid-feedback">
+            An image is required.
           </div>
-          <h4>Categories</h4>
+          <div class="input-group mt-3 mb-3">
+            <span class="input-group-text" id="basic-addon1">Name</span>
+            <input id="addCardFormName" type="text" class="form-control" aria-describedby="basic-addon1" required>
+          </div>
+          <div class="d-flex justify-content-between">
+            <h4>Categories</h4>
+            <button type="button" class="btn btn-secondary btn-sm" onClick="applyGeneralToBlank()">Apply General Cashback to Blank Fields</button>
+          </div>
           <div class="d-flex flex-row flex-fill">
             <div class="p-1">
               <h6>General</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="addCardFormGeneralCashback" type="text" class="form-control" placeholder="Cashback" aria-label="General Cashback" aria-describedby="basic-addon1" pattern="[0-9\.]+" required>
+                <span class="input-group-text" id="basic-addon2">%</span>
               </div>
             </div>
             <div class="p-1">
               <h6>Restaurant</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="addCardFormRestaurantCashback" type="text" class="form-control" placeholder="Cashback" aria-label="Restaurant Cashback" aria-describedby="basic-addon1" pattern="[0-9\.]+" required>
+                <span class="input-group-text" id="basic-addon2">%</span>
               </div>
             </div>
             <div class="p-1">
               <h6>Grocery</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="addCardFormGroceryCashback" type="text" class="form-control" placeholder="Cashback" aria-label="Grocery Cashback" aria-describedby="basic-addon1" pattern="[0-9\.]+" required>
+                <span class="input-group-text" id="basic-addon2">%</span>
               </div>
             </div>
           </div>
@@ -126,19 +134,22 @@
             <div class="p-1">
               <h6>Drug Store</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="addCardFormDrugCashback" type="text" class="form-control" placeholder="Cashback" aria-label="Drug Store Cashback" aria-describedby="basic-addon1" pattern="[0-9\.]+" required>
+                <span class="input-group-text" id="basic-addon2">%</span>
               </div>
             </div>
             <div class="p-1">
               <h6>Gas</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="addCardFormGasCashback" type="text" class="form-control" placeholder="Cashback" aria-label="Gas Cashback" aria-describedby="basic-addon1" pattern="[0-9\.]+" required>
+                <span class="input-group-text" id="basic-addon2">%</span>
               </div>
             </div>
             <div class="p-1">
               <h6>Travel</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="addCardFormTravelCashback" type="text" class="form-control" placeholder="Cashback" aria-label="Travel Cashback" aria-describedby="basic-addon1" pattern="[0-9\.]+" required>
+                <span class="input-group-text" id="basic-addon2">%</span>
               </div>
             </div>
           </div>
@@ -146,29 +157,32 @@
             <div class="p-1">
               <h6>Entertainment</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="addCardFormEntertainmentCashback" type="text" class="form-control" placeholder="Cashback" aria-label="Entertainment Cashback" aria-describedby="basic-addon1" pattern="[0-9\.]+" required>
+                <span class="input-group-text" id="basic-addon2">%</span>
               </div>
             </div>
             <div class="p-1">
               <h6>Bill Payments</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="addCardFormBillCashback" type="text" class="form-control" placeholder="Cashback" aria-label="Bill Payments Cashback" aria-describedby="basic-addon1" pattern="[0-9\.]+" required>
+                <span class="input-group-text" id="basic-addon2">%</span>
               </div>
             </div>
           </div>
           <h4>Add Store</h4>
           <div class="input-group mb-3 p-1">
             <button class="btn btn-outline-secondary" type="button" id="button-addon1">+</button>
-            <input type="text" class="form-control" placeholder="Store" aria-label="Store">
+            <input id="addCardFormCustomStoreName" type="text" class="form-control" placeholder="Store" aria-label="Store">
             <span class="input-group-text">@</span>
-            <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback">
+            <input id="addCardFormCustomStoreCashback" type="text" class="form-control" placeholder="Cashback" aria-label="Cashback" pattern="[0-9\.]+">
+            <span class="input-group-text" id="basic-addon2">%</span>
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Discard</button>
-          <button type="button" class="btn btn-primary" onClick="saveCard()">Save</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onClick="discardCard()">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save</button>
         </div>
-      </div>
+      </form>
     </div>
   </div>
   
@@ -181,11 +195,13 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <div class="d-flex input-group-lg mb-3 ms-3 me-3">
-            <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+          <div id="searchCardQueryContainer" class="d-flex input-group-lg mb-3 ms-3 me-3">
+            <input id="searchCardQuery" type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+            <ul id="searchCardQueryList" class="list-group">
+            </ul>
           </div>
-          <div id="creditCardPreviewArea" class="position-relative d-flex justify-content-center border border-3 mb-3">
-            <img id="creditCardPreviewImg" class="" src="https://via.placeholder.com/860x540">
+          <div id="searchCardPreviewArea" class="card-preview-area position-relative d-flex justify-content-center border border-3 mb-3">
+            <img id="searchCardPreviewImg" class="invisible" src="https://via.placeholder.com/860x540">
           </div>
           
           <h4>Categories</h4>
@@ -193,19 +209,19 @@
             <div class="p-1">
               <h6>General</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="searchCardFieldGeneralCashback" type="text" class="form-control" placeholder="% Cashback" aria-label="General Cashback" aria-describedby="basic-addon1" disabled readonly>
               </div>
             </div>
             <div class="p-1">
               <h6>Restaurant</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="searchCardFieldRestaurantCashback" type="text" class="form-control" placeholder="% Cashback" aria-label="Restaurant Cashback" aria-describedby="basic-addon1" disabled readonly>
               </div>
             </div>
             <div class="p-1">
               <h6>Grocery</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="searchCardFieldGroceryCashback" type="text" class="form-control" placeholder="% Cashback" aria-label="Grocery Cashback" aria-describedby="basic-addon1" disabled readonly>
               </div>
             </div>
           </div>
@@ -213,19 +229,19 @@
             <div class="p-1">
               <h6>Drug Store</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="searchCardFieldDrugCashback" type="text" class="form-control" placeholder="% Cashback" aria-label="Drug Store Cashback" aria-describedby="basic-addon1" disabled readonly>
               </div>
             </div>
             <div class="p-1">
               <h6>Gas</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="searchCardFieldGasCashback" type="text" class="form-control" placeholder="% Cashback" aria-label="Gas Cashback" aria-describedby="basic-addon1" disabled readonly>
               </div>
             </div>
             <div class="p-1">
               <h6>Travel</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="searchCardFieldTravelCashback" type="text" class="form-control" placeholder="% Cashback" aria-label="Travel Cashback" aria-describedby="basic-addon1" disabled readonly>
               </div>
             </div>
           </div>
@@ -233,13 +249,13 @@
             <div class="p-1">
               <h6>Entertainment</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="searchCardFieldEntertainmentCashback" type="text" class="form-control" placeholder="% Cashback" aria-label="Entertainment Cashback" aria-describedby="basic-addon1" disabled readonly>
               </div>
             </div>
             <div class="p-1">
               <h6>Bill Payments</h6>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="% Cashback" aria-label="% Cashback" aria-describedby="basic-addon1">
+                <input id="searchCardFieldBillCashback" type="text" class="form-control flex-grow-1" placeholder="% Cashback" aria-label="Bill Payments Cashback" aria-describedby="basic-addon1" disabled readonly>
               </div>
             </div>
           </div>
@@ -253,7 +269,7 @@
           </div> -->
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Add</button>
+          <button id="searchCardAddBtn" type="button" class="btn btn-primary">Add</button>
         </div>
       </div>
     </div>
@@ -264,102 +280,7 @@
     
     <div id="userWalletCardsFlex" class="mt-3 text-center align-center d-flex flex-wrap justify-content-evenly flex-wrap-anim">
       <div class="wallet-card-container m-2">
-        <a class="link-unstyled" data-bs-toggle="collapse" href="#userWalletCard1Colapse" role="button" aria-expanded="false" aria-controls="userWalletCard1Colapse">
-          <div id="" class="wallet-card border border-3 position-relative">
-            <svg class="bi position-absolute top-50 start-50 translate-middle" width="64" height="64" fill="currentColor">
-              <use xlink:href="image/bootstrap-icons.svg#credit-card-fill"/>
-            </svg>
-            <h1 class="display-6">Card 1</h1>
-          </div>
-        </a>
-        <div data-bs-toggle="" class="collapse wallet-card-desc" id="userWalletCard1Colapse">
-          <div class="card card-body text-start">
-            <h1 class="display-6">Name</h1>
-            <ul>
-              <li>General Cashback: </li>
-              <li>Gas: </li>
-              <li>Groceries: </li>
-            </ul>
-            <div class="container">
-              <button type="button" class="btn btn-outline-secondary float-start"><i class="bi bi-three-dots"></i></button>
-              <button type="button" class="btn btn-outline-secondary float-end"><i class="bi bi-pencil-square"></i></button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="wallet-card-container m-2">
-        <a class="link-unstyled" data-bs-toggle="collapse" href="#userWalletCard2Colapse" role="button" aria-expanded="false" aria-controls="userWalletCard2Colapse">
-          <div id="" class="wallet-card border border-3 position-relative">
-            <svg class="bi position-absolute top-50 start-50 translate-middle" width="64" height="64" fill="currentColor">
-              <use xlink:href="image/bootstrap-icons.svg#credit-card-fill"/>
-            </svg>
-            <h1 class="display-6">Card 2</h1>
-          </div>
-        </a>
-        <div data-bs-toggle="" class="collapse wallet-card-desc" id="userWalletCard2Colapse">
-          <div class="card card-body text-start">
-            <h1 class="display-6">Name</h1>
-            <ul>
-              <li>General Cashback: </li>
-              <li>Gas: </li>
-              <li>Groceries: </li>
-            </ul>
-            <div class="container">
-              <button type="button" class="btn btn-outline-secondary float-start"><i class="bi bi-three-dots"></i></button>
-              <button type="button" class="btn btn-outline-secondary float-end"><i class="bi bi-pencil-square"></i></button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="wallet-card-container m-2">
-        <a class="link-unstyled" data-bs-toggle="collapse" href="#userWalletCard3Colapse" role="button" aria-expanded="false" aria-controls="userWalletCard3Colapse">
-          <div id="" class="wallet-card border border-3 position-relative">
-            <svg class="bi position-absolute top-50 start-50 translate-middle" width="64" height="64" fill="currentColor">
-              <use xlink:href="image/bootstrap-icons.svg#credit-card-fill"/>
-            </svg>
-            <h1 class="display-6">Card 3</h1>
-          </div>
-        </a>
-        <div data-bs-toggle="" class="collapse wallet-card-desc" id="userWalletCard3Colapse">
-          <div class="card card-body text-start">
-            <h1 class="display-6">Name</h1>
-            <ul>
-              <li>General Cashback: </li>
-              <li>Gas: </li>
-              <li>Groceries: </li>
-            </ul>
-            <div class="container">
-              <button type="button" class="btn btn-outline-secondary float-start"><i class="bi bi-three-dots"></i></button>
-              <button type="button" class="btn btn-outline-secondary float-end"><i class="bi bi-pencil-square"></i></button>
-            </div>
-          </div>
-        </div>
-      </div><div class="wallet-card-container m-2">
-        <a class="link-unstyled" data-bs-toggle="collapse" href="#userWalletCard4Colapse" role="button" aria-expanded="false" aria-controls="userWalletCard4Colapse">
-          <div id="" class="wallet-card border border-3 position-relative">
-            <svg class="bi position-absolute top-50 start-50 translate-middle" width="64" height="64" fill="currentColor">
-              <use xlink:href="image/bootstrap-icons.svg#credit-card-fill"/>
-            </svg>
-            <h1 class="display-6">Card 4</h1>
-          </div>
-        </a>
-        <div data-bs-toggle="" class="collapse wallet-card-desc" id="userWalletCard4Colapse">
-          <div class="card card-body text-start">
-            <h1 class="display-6">Name</h1>
-            <ul>
-              <li>General Cashback: </li>
-              <li>Gas: </li>
-              <li>Groceries: </li>
-            </ul>
-            <div class="container">
-              <button type="button" class="btn btn-outline-secondary float-start"><i class="bi bi-three-dots"></i></button>
-              <button type="button" class="btn btn-outline-secondary float-end"><i class="bi bi-pencil-square"></i></button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="wallet-card-container m-2">
-        <div id="userWalletSearchCard" class="wallet-card border border-3 position-relative" data-bs-toggle="modal" data-bs-target="#searchCardModal">
+        <div id="userWalletSearchCard" class="wallet-card border border-3 position-relative" data-bs-target="#searchCardModal">
           <svg class="bi position-absolute top-50 start-50 translate-middle" width="64" height="64" fill="currentColor">
             <use xlink:href="image/bootstrap-icons.svg#search"/>
           </svg>
@@ -367,7 +288,7 @@
         </div>
       </div>
       <div class="wallet-card-container m-2">
-        <div id="userWalletAddCard" class="wallet-card border border-3 position-relative" data-bs-toggle="modal" data-bs-target="#addCardModal">
+        <div id="userWalletAddCard" class="wallet-card border border-3 position-relative" data-bs-target="#addCardModal">
           <svg class="bi position-absolute top-50 start-50 translate-middle" width="64" height="64" fill="currentColor">
             <use xlink:href="image/bootstrap-icons.svg#plus-circle"/>
           </svg>

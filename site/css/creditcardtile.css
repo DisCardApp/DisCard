@@ -1,4 +1,10 @@
+.wallet-card-container {
+    cursor: pointer;
+}
+
 .wallet-card {
+    cursor: pointer;
+
     width: 21.5em;
     height: 13.5em;
 
@@ -10,7 +16,7 @@
     transition: 0.6s;
 }
 
-.wallet-card:hover {
+.wallet-card:hover:not(.has-image){
     background-color: black;
     color: white;
     transition: 0.6s;
@@ -18,4 +24,20 @@
 
 .wallet-card-desc {
     width: 21.5em;
+}
+
+.card-tile-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-tile-img + .card-name {
+    transition: 0.6s;
+    opacity: 0;
+    color: white;
+}
+
+.wallet-card:hover > .card-name {
+    opacity: 1;
 }

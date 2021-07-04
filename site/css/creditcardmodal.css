@@ -1,9 +1,50 @@
-#creditCardPreviewArea img {
-    max-width: 100%;
-    max-height: auto;
+.card-preview-area img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
-#creditCardPreviewArea {
+.card-preview-area {
     border-radius: 4%/6.5%;
     overflow: hidden;
+}
+
+#creditCardPreviewImgPicker.selected {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0.35s;
+    transition-duration: 0.35s;
+    /* -webkit-transition-timing-function: ease;
+    transition-timing-function: ease; */
+}
+
+.card-preview-area:hover #creditCardPreviewImgPicker.selected {
+    opacity: 1;
+}
+
+#searchCardQuery + .list-group {
+    visibility: hidden; 
+    position: absolute;
+    margin-top: 50px;
+    z-index: 10;
+    width: 87%;
+}
+
+#searchCardQuery:focus + .list-group {
+    visibility: visible;
+}
+
+#searchCardQuery + .list-group:hover {
+    visibility: visible;
+}
+
+.card-search-item-thumb {
+    height: 2rem;
+    border-radius: 4%/6.5%;
+    overflow: hidden;
+}
+
+.card-search-item {
+    cursor: pointer;
 }

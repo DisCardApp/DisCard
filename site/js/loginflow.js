@@ -4,7 +4,7 @@ var logoutBtnHtml = `<img style="width: 20px; padding-top:3px; margin-left:3px; 
 function signInGoogle() {
   if (!firebase.auth().currentUser) {
     let provider = new firebase.auth.GoogleAuthProvider();
-    provider.addScope("https://www.googleapis.com/auth/plus.login");
+    // provider.addScope("https://www.googleapis.com/auth/plus.login");
     firebase.auth().signInWithRedirect(provider);
   }
 }
