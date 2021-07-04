@@ -1,6 +1,5 @@
-var loggedIn = false;
+var uid, loggedIn = false;
 var setupListener = false;
-var uid;
 var imgHandle;
 const fileSelect = document.getElementById("creditCardImgPickerForm");
 
@@ -47,17 +46,17 @@ function handleImgSelection() {
 firebase.auth().onAuthStateChanged(function (user) {
     if (user) {
         // User is signed in.
-        loggedIn = true;
-        document.getElementById("userWalletSearchCard").setAttribute("data-bs-toggle", "modal");
-        document.getElementById("userWalletAddCard").setAttribute("data-bs-toggle", "modal");
         uid = firebase.auth().currentUser.uid;
+        loggedIn = true;
+        document.getElementById("userWalletSearchCard").setAttribute("data-bs-target", "#searchCardModal");
+        document.getElementById("userWalletAddCard").setAttribute("data-bs-target", "#addCardModal");
         populateCards();
     }
     else {
         // User is signed out.
         loggedIn = false;
-        document.getElementById("userWalletSearchCard").removeAttribute("data-bs-toggle");
-        document.getElementById("userWalletAddCard").removeAttribute("data-bs-toggle");
+        document.getElementById("userWalletSearchCard").setAttribute("data-bs-target", "#signInPromptModal");
+        document.getElementById("userWalletAddCard").setAttribute("data-bs-target", "#signInPromptModal");
     }
 });
 
@@ -133,12 +132,12 @@ function editCardId(key, cardData) {
     <use xlink:href="image/bootstrap-icons.svg#credit-card-fill"/>
     </svg> -->
     <img src="${cardData.image}" class="mw-100 card-tile-img">
-    <h1 class="display-6 position-absolute top-50 start-50 translate-middle card-name">${cardData.name}</h1>
+    <h1 class="h4 position-absolute top-50 start-50 translate-middle card-name">${cardData.name}</h1>
     </div>
     </a>
     <div data-bs-toggle="" class="collapse wallet-card-desc" id="userWalletCardCollapse${key}">
     <div class="card card-body text-start">
-    <h1 class="display-6">${cardData.name}</h1>
+    <h1 class="h2">${cardData.name}</h1>
     <ul>
     <li>General Cashback: ${cardData.cashback.general}%</li>
     <li>Restaurant: ${cardData.cashback.restaurant}%</li>
