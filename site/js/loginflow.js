@@ -1,6 +1,5 @@
 var loginBtnHtml = `<img style="width: 20px; padding-top:3px; margin-left:3px; margin-right:3px; float: left;" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" /><div class="logintext">Sign in with Google</div>`;
 var logoutBtnHtml = `<img style="width: 20px; padding-top:3px; margin-left:3px; margin-right:3px; float: left;" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" /><span class="signouttext">`;
-var uid;
 
 function signInGoogle() {
   if (!firebase.auth().currentUser) {
@@ -23,7 +22,7 @@ firebase.auth().onAuthStateChanged(function (user) {
     var emailVerified = user.emailVerified;
     var photoURL = user.photoURL;
     var isAnonymous = user.isAnonymous;
-    uid = user.uid;
+    var uid = user.uid;
     var providerData = user.providerData;
     // document.getElementById('quickstart-sign-in-status').textContent = 'Signed in';
     // document.getElementById('quickstart-sign-in').textContent = 'Sign out';

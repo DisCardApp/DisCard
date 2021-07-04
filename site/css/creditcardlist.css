@@ -6,15 +6,3 @@
     max-width: 100%;
     height: auto;
 }
-
-#creditCardPreviewImg.wallet-card {
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
-
-#creditCardPreviewImg.wallet-card:hover {
-    background-color: white;
-    color: black;
-    transition: none;
-}

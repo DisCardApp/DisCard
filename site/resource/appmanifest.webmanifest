@@ -6,32 +6,32 @@
         "lang": "en",
         "icons": [
                 {     
-                        "src": "/image/icon/logo_s.png",
+                        "src": "image/icon/icon_s.png",
                         "sizes": "96x96",
                         "type": "image/png",
                         "purpose": "maskable any"
                 },
                 {     
-                        "src": "/image/icon/logo_m.png",
+                        "src": "image/icon/icon_l.png",
                         "sizes": "128x128",
                         "type": "image/png",
                         "purpose": "maskable any"
                 },
                 {     
-                        "src": "/image/icon/logo_l.png",
+                        "src": "image/icon/icon_l.png",
                         "sizes": "384x384",
                         "type": "image/png",
                         "purpose": "maskable any"
                 },
                 {     
-                        "src": "/image/icon/logo_xxl.png",
+                        "src": "image/icon/icon_xxl.png",
                         "sizes": "2048x2048",
                         "type": "image/png",
                         "purpose": "maskable any"
                 }
         ],
         "display": "minimal-ui",
-        "background_color": "#9999FF80",
+        "background_color": "#9999FF",
         "theme_color": "#9999FF",
         "start_url": "/mainpage.html",
         "categories": ["finance", "utilities", "productivity", "lifestyle"]

@@ -16,10 +16,6 @@
     transition: 0.6s;
 }
 
-.wallet-card > img {
-    object-fit: cover;
-}
-
 .wallet-card:hover:not(.has-image){
     background-color: black;
     color: white;
