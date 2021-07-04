@@ -60,7 +60,7 @@
 
 Discard your inefficient credit card spending!
 
-Discard is a web app built to help users manage their credit cards and maximize cashback rewards. Using a database of all Canadian credit cards and cashback deals from Rakuten, Discard can tell you the best credit card to use based on your shopping needs with a sleek and responsive UI. 
+Discard is a web app built to help users manage their creditcards and maximize cash back rewards. Using a database of all Canadian creditcards and cash back deals from Rakuten, Discard can tell you the best credit card to use based on your shopping needs with a sleek and responsive UI. 
 
 Simply login to Discard with Google and add your cards to the app. You can then use the search function to find a store or directly use your location with Google Maps to find nearby stores. Discard will then use its large database of credit cards and deals to select the best card to use from your set of cards. Just like that, you'll be set to maximize your cashback rewards!
 
@@ -146,6 +146,7 @@ On the main page, you will be greeted by a few different options:
 * Search Bar: Enter the name of the store you're looking to shop at
 * Use My Location Button: Get nearby stores directly using your devices location
 * Quick Category: Choose a category to find the best card suited for a broad category of stores
+
 After using any of these options, you'll be told which card is the best to use.
 
 ### Credit Card List
@@ -159,7 +160,7 @@ Search:
 Manual Add:
 * The manual add button lets you manually add a credit card in case the search function can't provide the right card. 
 * To use this function, upload a photo of the card, enter its name, and enter the cashback provided by the card for each category. 
-* * You can also enter cashback for specific stores here. 
+  * You can also enter cashback for specific stores here. 
 * The card will be added to your account and Discard will consider it when finding the best card for you to use.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
@@ -172,6 +173,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 * Mobile App
 * Contactless payment setup allowing users to automatically pay using their best credit card depending on their location
 * Suggest better credit cards offers to users
+* Indicate cards that have excessive annual fees
 * Track coupon codes
 
 
