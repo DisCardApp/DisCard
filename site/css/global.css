@@ -1,34 +1,71 @@
 .link-unstyled, .link-unstyled:link, .link-unstyled:hover {
-    color: inherit;
-    text-decoration: inherit;
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .collapse.width {
-    overflow: hidden;
-    visibility: hidden;
-  }
-  .collapse.show.width {
-    visibility: visible;
-    display: block;
-  }
-  .collapsing.width {
-    position: relative;
-    height: 0;
-    overflow: hidden;
-    -webkit-transition-property: height, visibility;
-    transition-property: height, visibility;
-    -webkit-transition-duration: 0.35s;
-    transition-duration: 0.35s;
-    -webkit-transition-timing-function: ease;
-    transition-timing-function: ease;
-  }
-  .collapsing.width {
-    animation-fill-mode: backwards;
-    -webkit-transition-property: transform, width, visibility;
-    transition-property: transform, width, visibility;
-    width: 0;
-    height: auto;
-  }
-  .collapsing.right {
-    margin-left: auto;
-  }
+  overflow: hidden;
+  visibility: hidden;
+}
+.collapse.show.width {
+  visibility: visible;
+  display: block;
+}
+.collapsing.width {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+.collapsing.width {
+  animation-fill-mode: backwards;
+  -webkit-transition-property: transform, width, visibility;
+  transition-property: transform, width, visibility;
+  width: 0;
+  height: auto;
+}
+.collapsing.right {
+  margin-left: auto;
+}
+
+.navbar-branding {
+  border-bottom: 2px solid;
+  border-color: #9999ff;
+}
+
+.border {
+  border-color: #9999ff !important;
+}
+
+.rakuten {
+  color: #C22477;
+}
+
+.brand-color-background {
+  background-color: #f3dbff80;
+}
+
+.copyright {
+  text-align: center;
+  border-top: 2px solid;
+  border-color: #9999ff;
+  position: relative;
+  width: 100%;
+}
+
+.fa-heart {
+  color: #DF3535;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+/* .pac-item > span:not(.pac-item-query):not(.pac-icon) {
+  visibility: hidden !important;
+} */
