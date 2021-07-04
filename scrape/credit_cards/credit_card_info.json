@@ -603,7 +603,7 @@
             "store_specific": false
         }
     },
-    "_cibc_dividend_visa_card": {
+    "cibc_dividend_visa_card": {
         "bank": "CIBC",
         "image": "https://www.cibc.com/content/dam/global/card_images/com/flat/cibc-visa-dividend-en.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png",
         "name": " CIBC Dividend\u00ae Visa Card",
