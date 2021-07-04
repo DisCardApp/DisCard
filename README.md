@@ -132,7 +132,7 @@ This is an example of how to list things you need to use the software and how to
 4. Configure [Google API keys](https://cloud.google.com/docs/authentication/api-keys)
   * edit `*.html`
 5. Configure [Firebase](https://firebase.google.com/)
-  * edit `*.html`
+  * edit `*.html*`
 
 
 <!-- USAGE EXAMPLES -->
@@ -163,7 +163,7 @@ Manual Add:
   * You can also enter cashback for specific stores here. 
 * The card will be added to your account and Discard will consider it when finding the best card for you to use.
 
-_For more examples, please refer to the [Demo](https://youtube.com)_
+_For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
