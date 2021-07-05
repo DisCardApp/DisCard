@@ -56,11 +56,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Main Page Screenshot][img/main_page.png]](https://discard.shop/)
+[![Main Page Screenshot](img/main_page.png)](https://discard.shop/)
 
 Discard your inefficient credit card spending!
 
-Discard is a web app built to help users manage their creditcards and maximize cash back rewards. Using a database of all Canadian creditcards and cash back deals from Rakuten, Discard can tell you the best credit card to use based on your shopping needs with a sleek and responsive UI. 
+Discard is a web app built to help users manage their creditcards and maximize cash back rewards. Using a database of all Canadian creditcards and cash back deals from Rakuten, Discard can tell you the best credit card to use based on your shopping needs with a sleek and responsive UI.
 
 Simply login to Discard with Google and add your cards to the app. You can then use the search function to find a store or directly use your location with Google Maps to find nearby stores. Discard will then use its large database of credit cards and deals to select the best card to use from your set of cards. Just like that, you'll be set to maximize your cashback rewards!
 
