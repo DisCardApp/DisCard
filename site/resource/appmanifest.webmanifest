@@ -1,5 +1,5 @@
 {
-        "name": "Discard - Card Selection Simplified",
+        "name": "Discard: Card Selection Simplified",
         "short_name": "Discard",
         "description": "Worried about your wallet bulge? Remembering which credit card to use for which situation is difficult, but it doesn't have to be. Discard missed cashback rewards so you can spend with confidence!",
         "dir": "auto",
@@ -30,7 +30,7 @@
                         "purpose": "maskable any"
                 }
         ],
-        "display": "minimal-ui",
+        "display": "fullscreen",
         "background_color": "#9999FF80",
         "theme_color": "#9999FF",
         "start_url": "/",
