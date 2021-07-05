@@ -53,7 +53,7 @@ function searchStoreRakuten(name) {
         if (temp.toUpperCase().indexOf(filter) > -1) { //If temp matches the 'i'th value in storeList, create a li tag and place it inside
             // if (suggestions < 1) {
             // li.innerHTML = `<a href = ${txtValue['link']} target="_blank">` + temp + `</a>`;
-            document.getElementById("cashbackSuggestionLink").innerHTML = `<a href=${txtValue['link']} target="_blank"><button type="button" class="btn btn-outline-secondary quick-category-btn">Shop Now</button></a>`;
+            document.getElementById("cashbackSuggestionLink").innerHTML = `<a href=${txtValue['link']} target="_blank"><button type="button" class="btn btn-outline-primary quick-category-btn">Shop Now</button></a>`;
             document.getElementById("cashbackSuggestionImg").innerHTML = `<img class="img-responsive" src=${txtValue['image']} alt="Store icon">`;
             document.getElementById("cashbackSuggestionAmount").innerHTML = `${txtValue['cashback']}`;
             // document.getElementById('myUL').appendChild(li);
