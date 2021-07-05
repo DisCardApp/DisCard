@@ -149,7 +149,7 @@ function editCardId(key, cardData) {
     </ul>
     <div class="container">
     <!-- <button type="button" class="btn btn-outline-secondary float-start"><i class="bi bi-three-dots"></i></button> -->
-    <button type="button" class="btn btn-outline-secondary float-start"><i class="bi bi-pencil-square"></i></button>
+    <button type="button" class="btn btn-outline-secondary float-start" onclick="displayEditCardModal('${key}')"><i class="bi bi-pencil-square"></i></button>
     <button type="button" class="btn btn-outline-secondary float-end" onclick="deleteCardId('${key}')"><i class="bi bi-trash"></i></button>
     </div>
     </div>
