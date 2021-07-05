@@ -43,6 +43,17 @@
         var database = firebase.database();
         var provider = new firebase.auth.GoogleAuthProvider();
     </script>
+
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function() {
+                navigator.serviceWorker
+                .register("/serviceWorker.js")
+                .then(res => console.log("service worker registered"))
+                .catch(err => console.log("service worker not registered", err))
+            })
+        }
+    </script>
     
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/signinbtn.css">
