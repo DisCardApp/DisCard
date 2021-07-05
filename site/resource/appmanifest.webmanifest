@@ -33,6 +33,6 @@
         "display": "minimal-ui",
         "background_color": "#9999FF80",
         "theme_color": "#9999FF",
-        "start_url": "/mainpage.html",
+        "start_url": "/",
         "categories": ["finance", "utilities", "productivity", "lifestyle"]
 }
