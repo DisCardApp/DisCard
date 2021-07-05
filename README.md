@@ -15,7 +15,7 @@
     <a href="https://github.com/Ti1mmy/DiscardApp#table-of-contents"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://www.youtube.com/" target="_blank">View Demo</a>
+    <a href="https://youtu.be/IGw_H8sNOIQ" target="_blank">View Demo</a>
     ·
     <a href="https://github.com/Ti1mmy/DiscardApp/issues">Report Bug</a>
     ·
@@ -177,7 +177,7 @@ Manual Add:
   * You can also enter cashback for specific stores here. 
 * The card will be added to your account and Discard will consider it when finding the best card for you to use.
 
-_For more examples, please refer to the [Demo](https://youtube.com)_
+_For more examples, please refer to the [Demo](https://youtu.be/IGw_H8sNOIQ)_
 
 
 
@@ -189,6 +189,7 @@ _For more examples, please refer to the [Demo](https://youtube.com)_
 * Suggest better credit cards offers to users
 * Indicate cards that have excessive annual fees
 * Track coupon codes
+* Editing existing card entries
 
 
 
