@@ -2,6 +2,8 @@
     width: 180px;
     height: 40px;
     overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 #google-login-button {

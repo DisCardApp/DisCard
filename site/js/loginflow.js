@@ -28,7 +28,7 @@ firebase.auth().onAuthStateChanged(function (user) {
     // document.getElementById('quickstart-sign-in-status').textContent = 'Signed in';
     // document.getElementById('quickstart-sign-in').textContent = 'Sign out';
     // document.getElementById('quickstart-account-details').textContent = JSON.stringify(user, null, '  ');
-    googleLoginBtn.innerHTML = logoutBtnHtml + "Logged in as " + user.displayName + "</span>";
+    googleLoginBtn.innerHTML = logoutBtnHtml + /*"Logged in as " +*/ displayName + "</span>";
     googleLoginBtn.classList.remove("logged-out");
     googleLoginBtn.classList.add("logged-in");
     googleLoginBtn.removeEventListener("click", signInGoogle);
