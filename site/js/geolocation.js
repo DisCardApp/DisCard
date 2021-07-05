@@ -29,10 +29,10 @@ function placeLocatedCallback(results, status) {
         }
         if (!result) {
             // Not an establishment here
-            document.getElementById("storeGeoNotFoundContainer").innerHTML = `<div class="alert alert-warning alert-dismissible fade show" role="alert">
+            document.getElementById("storeGeoErrorContainer").innerHTML = `<div class="alert alert-warning alert-dismissible fade show" role="alert">
             <strong>Unable to find a store at your location.</strong> Falling back to general category values...
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>`
+            </div>`;
             result = { types: [] };
         }
         evaluatePlace(result);
@@ -53,13 +53,18 @@ function locateUser(event) {
     if (event.target.hasAttribute("disabled"))
         return;
     function error() {
-        alert('Unable to retrieve your location, please accept the request');
-        location.reload();
+        document.getElementById("storeGeoErrorContainer").innerHTML = `<div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>Unable to retrieve your location.</strong> Please reload and accept the permission request if you denied it.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>`;
     }
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(searchPosition, error);
     } else {
-        alert("Geolocation unsupported!");
+        document.getElementById("storeGeoErrorContainer").innerHTML = `<div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>Geolocation unsupported!</strong> Geolocation services are unavailable on your device.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>`;
     }
     // HACK: Hardcode location for dev
     // Food Basics 43.813331597239305, -79.35717205097839

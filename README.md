@@ -7,7 +7,7 @@
 
   <h3 align="center">Discard</h3>
   <h4 align="center"><a href="https://devpost.com/software/discard" target="_blank">Devpost Link</a></h4>
-  <h4 align="center"><a href="https://" target="_blank">» Start using Discard!</a></h4>
+  <h4 align="center"><a href="https://discard.shop" target="_blank">» Start using Discard!</a></h4>
   
   <p align="center">
     Worried about your wallet bulge? Remembering which credit card to use for which situation is difficult, but it doesn't have to be. <strong>Discard</strong> missed opportunity costs so you can spend with confidence!
@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Main Page Screenshot][img/main_page.png]](https://discard.shop/)
 
 Discard your inefficient credit card spending!
 
@@ -139,6 +139,13 @@ This is an example of how to list things you need to use the software and how to
   cd site
   python -m http.server
   ```
+7. Start Rakuten Scheduled Scrapes
+  ```sh
+  cd ..
+  cd scrape
+  cd rakuten
+  python schedule.py
+  ```
 
 
 
@@ -177,7 +184,7 @@ _For more examples, please refer to the [Demo](https://youtube.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-* Mobile App
+* Native Mobile App (PWA already serves mobile app functions, but native apps are generally cleaner)
 * Contactless payment setup allowing users to automatically pay using their best credit card depending on their location
 * Suggest better credit cards offers to users
 * Indicate cards that have excessive annual fees
@@ -214,6 +221,6 @@ Katherine Li [Linkedin](https://www.linkedin.com/in/k-atherine-li/) - katherinel
 
 Timothy Zheng - [Linkedin](https://www.linkedin.com/in/timothy-zheng21/) - timothyzheng123@gmail.com
 
-Sean Gordon - [Linkedin](https://www.***REMOVED***) - ***REMOVED***
+Sean Gordon
 
 Devpost Link: [https://devpost.com/software/discard](https://devpost.com/software/discard)
