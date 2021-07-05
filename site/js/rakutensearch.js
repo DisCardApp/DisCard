@@ -9,8 +9,6 @@ function getRakutenList() {
             // Success!
             let data = JSON.parse(this.response);
             rakutenJson = data;
-            // REPLACE THIS
-            // document.getElementById('searchCardQuery').addEventListener('input', updateCardSearch);
         } else {
             // We reached our target server, but it returned an error
             console.error("Failed to get credit card search data!");
