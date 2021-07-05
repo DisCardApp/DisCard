@@ -5,9 +5,9 @@
     <img src="img/logo.png" alt="Logo" width="320" height="180">
   </a>
 
-  <h3 align="center">DiscardApp</h3>
+  <h3 align="center">Discard</h3>
   <h4 align="center"><a href="https://devpost.com/software/discard" target="_blank">Devpost Link</a></h4>
-  <h4 align="center"><a href="https://" target="_blank">» Start using DiscardApp!</a></h4>
+  <h4 align="center"><a href="https://" target="_blank">» Start using Discard!</a></h4>
   
   <p align="center">
     Worried about your wallet bulge? Remembering which credit card to use for which situation is difficult, but it doesn't have to be. <strong>Discard</strong> missed opportunity costs so you can spend with confidence!
@@ -133,6 +133,13 @@ This is an example of how to list things you need to use the software and how to
   * edit `*.html`
 5. Configure [Firebase](https://firebase.google.com/)
   * edit `*.html`
+6. Start Server
+  * site will be accessed via `localhost:8000`
+  ```sh
+  cd site
+  python -m http.server
+  ```
+
 
 
 <!-- USAGE EXAMPLES -->
@@ -208,6 +215,5 @@ Katherine Li [Linkedin](https://www.linkedin.com/in/k-atherine-li/) - katherinel
 Timothy Zheng - [Linkedin](https://www.linkedin.com/in/timothy-zheng21/) - timothyzheng123@gmail.com
 
 Sean Gordon - [Linkedin](https://www.***REMOVED***) - ***REMOVED***
-
 
 Devpost Link: [https://devpost.com/software/discard](https://devpost.com/software/discard)
