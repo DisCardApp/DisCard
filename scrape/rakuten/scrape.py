@@ -24,7 +24,9 @@ SOFTWARE.
 
 from bs4 import BeautifulSoup
 import json
+import os
 import requests
+
 
 data = []
 user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36'  # rate limit
@@ -80,6 +82,6 @@ for k in range(len(info)):
     data['stores'][key]['link'] = info[k][2]
     data['stores'][key]['cashback'] = info[k][3]
 
-with open('rakuten.json', 'w') as out:
+with open('../../site/resource/rakuten.json', 'w') as out:
     out.write(json.dumps(data, indent=4))
 
