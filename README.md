@@ -1,25 +1,25 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Ti1mmy/DiscardApp">
+  <a href="https://github.com/Ti1mmy/DisCardApp">
     <img src="img/logo.png" alt="Logo" width="320" height="180">
   </a>
 
-  <h3 align="center">Discard</h3>
+  <h3 align="center">DisCard</h3>
   <h4 align="center"><a href="https://devpost.com/software/discard" target="_blank">Devpost Link</a></h4>
-  <h4 align="center"><a href="https://discard.shop" target="_blank">» Start using Discard!</a></h4>
+  <h4 align="center"><a href="https://discard.shop" target="_blank">» Start using DisCard!</a></h4>
   
   <p align="center">
-    Worried about your wallet bulge? Remembering which credit card to use for which situation is difficult, but it doesn't have to be. <strong>Discard</strong> missed opportunity costs so you can spend with confidence!
+    Worried about your wallet bulge? Remembering which credit card to use for which situation is difficult, but it doesn't have to be. <strong>DisCard</strong> missed opportunity costs so you can spend with confidence!
     <br />
-    <a href="https://github.com/Ti1mmy/DiscardApp#table-of-contents"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Ti1mmy/DisCardApp#table-of-contents"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://youtu.be/IGw_H8sNOIQ" target="_blank">View Demo</a>
     ·
-    <a href="https://github.com/Ti1mmy/DiscardApp/issues">Report Bug</a>
+    <a href="https://github.com/Ti1mmy/DisCardApp/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Ti1mmy/DiscardApp/issues">Request Feature</a>
+    <a href="https://github.com/Ti1mmy/DisCardApp/issues">Request Feature</a>
   </p>
 </p>
 
@@ -58,11 +58,11 @@
 
 [![Main Page Screenshot](img/main_page.png)](https://discard.shop/)
 
-Discard your inefficient credit card spending!
+DisCard your inefficient credit card spending!
 
-Discard is a web app built to help users manage their creditcards and maximize cash back rewards. Using a database of all Canadian creditcards and cash back deals from Rakuten, Discard can tell you the best credit card to use based on your shopping needs with a sleek and responsive UI.
+DisCard is a web app built to help users manage their creditcards and maximize cash back rewards. Using a database of all Canadian creditcards and cash back deals from Rakuten, DisCard can tell you the best credit card to use based on your shopping needs with a sleek and responsive UI.
 
-Simply login to Discard with Google and add your cards to the app. You can then use the search function to find a store or directly use your location with Google Maps to find nearby stores. Discard will then use its large database of credit cards and deals to select the best card to use from your set of cards. Just like that, you'll be set to maximize your cashback rewards!
+Simply login to DisCard with Google and add your cards to the app. You can then use the search function to find a store or directly use your location with Google Maps to find nearby stores. DisCard will then use its large database of credit cards and deals to select the best card to use from your set of cards. Just like that, you'll be set to maximize your cashback rewards!
 
 ### Built With
 
@@ -119,11 +119,11 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Ti1mmy/DiscardApp.git
+   git clone https://github.com/Ti1mmy/DisCardApp.git
    ```
 2. `cd` into repo directory
    ```sh
-   cd DiscardApp
+   cd DisCardApp
    ```
 3. Install Prerequisite Libraries
    ```sh
@@ -153,7 +153,7 @@ This is an example of how to list things you need to use the software and how to
 ## Usage
 
 ### Navbar
-At the top of every page, you'll be able to navigate between the main page, the credit card list, and info about the project. There's also an option for you to login to Discard with Google so that you can save your cards on the app.
+At the top of every page, you'll be able to navigate between the main page, the credit card list, and info about the project. There's also an option for you to login to DisCard with Google so that you can save your cards on the app.
 
 ### Main Page
 On the main page, you will be greeted by a few different options:
@@ -164,7 +164,7 @@ On the main page, you will be greeted by a few different options:
 After using any of these options, you'll be told which card is the best to use.
 
 ### Credit Card List
-This is the page where you can view and add to your set of credit cards on Discard. Clicking on a card shows details for the card like its name and cashback details. To add a card, you can click on the search button or the manual add button.
+This is the page where you can view and add to your set of credit cards on DisCard. Clicking on a card shows details for the card like its name and cashback details. To add a card, you can click on the search button or the manual add button.
 
 Search:
 * The search button lets you add a credit card by searching through a database of Canadian credit cards. 
@@ -175,7 +175,7 @@ Manual Add:
 * The manual add button lets you manually add a credit card in case the search function can't provide the right card. 
 * To use this function, upload a photo of the card, enter its name, and enter the cashback provided by the card for each category. 
   * You can also enter cashback for specific stores here. 
-* The card will be added to your account and Discard will consider it when finding the best card for you to use.
+* The card will be added to your account and DisCard will consider it when finding the best card for you to use.
 
 _For more examples, please refer to the [Demo](https://youtu.be/IGw_H8sNOIQ)_
 
