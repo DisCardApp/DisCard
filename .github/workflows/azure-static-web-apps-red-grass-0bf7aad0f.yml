@@ -63,5 +63,8 @@ jobs:
         run: pip install -r requirements.txt
       - name: Daily Rakuten Scrape
         run: |
-          python scrape/rakuten/schedule.py
+          cd scrape
+          cd rakuten
+          python schedule.py
+          ls -la
           echo "Rakuten Web Scrape Successfully Completed"
