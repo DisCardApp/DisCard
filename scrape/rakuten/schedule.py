@@ -23,14 +23,11 @@ SOFTWARE.
 """
 
 from scrape import scrape_rakuten
-from time import sleep
 import datetime
 
-while True:
-    try:
-        scrape_rakuten()
-        print(f"{datetime.datetime.now()} UTC | Scheduled Scrape: Successfully scraped https://www.rakuten.ca/stores for cashback data")
-    except Exception as error:
-        print("Error while scraping Rakuten!")
-        print(f"Error: {error}")
-    sleep(24 * 60 * 60)
+try:
+    scrape_rakuten()
+    print(f"{datetime.datetime.now()} UTC | Scheduled Scrape: Successfully scraped https://www.rakuten.ca/stores for cashback data")
+except Exception as error:
+    print("Error while scraping Rakuten!")
+    print(f"Error: {error}")
