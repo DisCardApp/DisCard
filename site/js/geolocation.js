@@ -43,7 +43,7 @@ function searchPosition(position) {
     const pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
     var placeRequest = {
         location: pos,
-        radius: 5,
+        radius: 25,
         type: ''
     };
     placesService.nearbySearch(placeRequest, placeLocatedCallback);
