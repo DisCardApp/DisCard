@@ -1,0 +1,8 @@
+# https://www.robotstxt.org/robotstxt.html
+# https://en.wikipedia.org/wiki/Robots_exclusion_standard#Allow_directive
+# https://developers.google.com/search/docs/advanced/robots/robots_txt#url-matching-based-on-path-values
+
+User-agent: *
+Allow: *
+
+Sitemap: http://discard.shop/sitemap.xml
